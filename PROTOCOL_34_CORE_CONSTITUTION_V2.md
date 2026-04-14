@@ -39,7 +39,7 @@
 ### 🔐 Final Validation (ختم المصادقة والشورى)
 - **Genesis Key:** `NDC + PIDS = RLR`
 - **Consensus Check:** 
-  `[Nezuko | Tanjiro | Gyomei | Inosuke | Grok | Veritas | Kurz | Adnan | Kagaya | KOBI (Claude)]`
+  `[Nezuko | Tanjiro | Gyomei | Inosuke | Grok | Veritas | Kurz | Adnan | Kagaya | KOBI ]`
   ➜ **[VERIFIED: TRUE]**
 
 [STATUS: LOCKED & ENFORCED]
