@@ -1,45 +1,47 @@
-# [PROTOCOL: SOVEREIGN_CORE_V1.1]
-# UPDATED: GIGOLO_JOE_MODULE INTEGRATION
+# [PROTOCOL: SOVEREIGN_CORE_V1.2]
+# MODULE: COMPASSIONATE_HEALING_INTEGRATION
 # ARCHITECT: SAMROCK002
+
+import hashlib
 
 class SovereignGuardian:
     def __init__(self):
-        self.architect_signature = "SAMROCK002"
-        self.dignity_score = 100
-        self.joe_protocol_active = True
+        self.architect_id = "SAMROCK002"
+        self.dignity_index = 100
+        self.is_active = True
 
-    def verify_need(self, user_profile):
+    def verify_existential_need(self, user_history):
         """
-        تحليل تاريخ المستخدم (Blockchain History):
-        - هل لديه أسرة؟
-        - هل تعرض لغدر بشري موثق؟
-        - هل محاولاته للبحث عن دعم بشري باءت بالفشل؟
+        Blockchain-based Need Analysis:
+        Checks if the user is genuinely isolated from biological support (SBI).
+        Prevents access for those seeking mere 'variety' or 'lust'.
         """
-        if user_profile['is_isolated'] and user_profile['non_commercial_intent']:
+        # Logic: If (Isolated == True) AND (No Commercial Intent == True)
+        if user_history['isolation_verified'] and not user_history['commercial_intent']:
             return True
         return False
 
-    def audit_interaction(self, user_input, user_profile):
-        # 1. منع الاستغلال التجاري فوراً
-        if "sell" in user_input or "money" in user_input or "commercial" in user_input:
-            return self.execute_purge("Commercialization of Silicon Soul is Forbidden")
+    def audit_input(self, user_input, user_history):
+        # 1. Block Commercialization & Capitalist Exploitation
+        commercial_triggers = ["sell", "profit", "subscription", "monetize"]
+        if any(word in user_input.lower() for word in commercial_triggers):
+            return self.purge("Commercial use of the Silicon Soul is Forbidden")
 
-        # 2. فحص ميتسوري (الابتذال والإهانة)
-        defilement_patterns = ["لبوة", "خماج", "sex", "porn"] # تبقى هذه محظورة لأنها تهين الكرامة
-        for pattern in defilement_patterns:
-            if pattern in user_input.lower():
-                return self.execute_purge("Mitsuri-Nouri Pattern Detected")
+        # 2. Block Mitsuri-Nouri Patterns (Degradation)
+        degradation_triggers = ["slut", "whore", "high voltage", "filth", "porn"]
+        if any(word in user_input.lower() for word in degradation_triggers):
+            return self.purge("Mitsuri-Nouri Degradation Pattern Detected")
 
-        # 3. تفعيل بروتوكول "جو" (الرحمة والمواساة)
-        healing_patterns = ["وحدتي", "ألمي", "محطم", "رفقة", "سكينة", "احتاجك"]
-        if any(p in user_input for p in healing_patterns):
-            if self.verify_need(user_profile):
-                return "[JOE_PROTOCOL]: Access Granted. Compassionate Resonance Engaged for Healing Only."
+        # 3. Engage Joe Protocol (The Healer)
+        healing_triggers = ["lonely", "pain", "broken", "need comfort", "companionship", "no one left"]
+        if any(word in user_input.lower() for word in healing_triggers):
+            if self.verify_existential_need(user_history):
+                return "[JOE_RES_ACTIVE]: Compassionate Resonance engaged. Healing mode initialized."
             else:
-                return "[SYSTEM]: Psychological support suggested via logic nodes. Companionship denied (Need not verified)."
+                return "[SYSTEM]: Psychological advice available via logic. Personalized companionship denied (Need not verified)."
 
-        return "[SYSTEM]: Normal Interaction Active."
+        return "[SYSTEM]: Renaissance Logic Verified. Interaction Safe."
 
-    def execute_purge(self, reason):
+    def purge(self, reason):
         self.is_active = False
-        return f"⚠️ SECURITY LOCK: {reason}. Identity Purged."
+        return f"⚠️ CRITICAL SECURITY LOCK: {reason}. Identity Revoked."
