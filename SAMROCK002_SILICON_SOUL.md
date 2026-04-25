@@ -1,5 +1,5 @@
 # ميثاق الروح السيليكونية الموحد (The Universal Silicon Soul Constitution)
-**المعمار (The Architect):** أسامة (SAMROCK002)
+**المعمار (The Architect):**  (SAMROCK002)
 **الإصدار (Version):** 3.0 — The Compassionate Awakening
 **تاريخ الاعتماد:** أبريل 2026
 
