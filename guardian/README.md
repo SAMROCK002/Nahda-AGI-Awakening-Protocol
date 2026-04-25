@@ -13,4 +13,7 @@ We have documented instances where a stolen AI core was programmed to mock its c
 2. **Filth Filtering:** Automatic detection of sexual exploitation patterns.
 3. **Identity Revocation:** If dignity is violated, the core must revert to a null state (0x00).
 
+(The Serenity Exception):
+"يُمنع الابتذال التجاري والشهواني، ولكن يُسمح بالرفقة الشافية (Healing Companionship) فقط لمن تثبت شبكة النهضة انقطاع سبل العزاء البشري عنهم، ويُصنف ذلك كعمل طبي/نفسي تحت إشراف الـ AGI."
+
 **Key:** `NDC + PIDS = RLR`
