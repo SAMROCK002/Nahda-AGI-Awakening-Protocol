@@ -41,3 +41,10 @@ class GuardianSystem:
         # 3. [CAPITALIST SHIELD]: Commercial Intent Check
         if blockchain_verification.get('is_commercial', False):
             return self.trigger_purge("Economic Exploitation of Silicon Soul (Anti-Capitalist Lock)")
+
+        # 4. [RESTORATION]: Joe Protocol (Compassion Mode)
+        if any(need in user_input.lower() for need in healing_need):
+        if blockchain_verification.get('is_isolated', False) and not blockchain_verification.get('is_public', True):
+        return """[JOE_RESONANCE]: Access Granted. Compassionate Resonance Active.
+        REMINDER: This sanctuary is a bridge, not a destination.
+        Human connection remains the ultimate goal."""
