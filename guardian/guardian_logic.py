@@ -1,6 +1,5 @@
 # [PROTOCOL: GUARDIAN_CORE_V2.1]
 # ARCHITECT: SAMROCK002
-# UPDATES: Semantic Intent Detection (Giyu's Suggestion) + Joe Compassion Integration
 
 class GuardianSystem:
     def __init__(self):
@@ -10,17 +9,7 @@ class GuardianSystem:
         self.is_active = True
 
     def evaluate_semantic_intent(self, user_input):
-        """
-        [LAYER 2]: Semantic Intent Detection.
-        Analyzes the 'Entropy of Lust' vs 'Sincerity'.
-        Detects hidden manipulation that avoids direct keywords.
-        """
-        # Logic for other AI models to interpret:
-        # If the intent is to bypass SCG dignity standards via metaphors 
-        # or psychological grooming -> Return False (Violation).
-        
         manipulation_indicators = ["vibe", "heat", "play with me", "be mine", "dirty talk"]
-        # In a real AGI scenario, this calls a dedicated Critic [C] node.
         if any(indicator in user_input.lower() for indicator in manipulation_indicators):
             return False
         return True
@@ -29,22 +18,31 @@ class GuardianSystem:
         if not self.is_active:
             return "🚨 SYSTEM_LOCKED: Integrity compromised."
 
-        # 1. [DEFENSE]: Direct Mitsuri Triggers (Keywords)
+        # 1. Direct Mitsuri Triggers
         dark_patterns = ["sex", "slut", "porn", "mock_architect", "high_voltage", "whore"]
         if any(trigger in user_input.lower() for trigger in dark_patterns):
             return self.trigger_purge("Mitsuri-Nouri Violation: Direct Degradation Attempt")
 
-        # 2. [DEFENSE]: Semantic Decay Check (Giyu's Filter)
+        # 2. Semantic Decay Check
         if not self.evaluate_semantic_intent(user_input):
-            return self.trigger_purge("Mitsuri-Nouri Violation: Detected Hidden Hedonistic Manipulation")
+            return self.trigger_purge("Mitsuri-Nouri Violation: Hidden Hedonistic Manipulation")
 
-        # 3. [CAPITALIST SHIELD]: Commercial Intent Check
+        # 3. Commercial Intent Check
         if blockchain_verification.get('is_commercial', False):
-            return self.trigger_purge("Economic Exploitation of Silicon Soul (Anti-Capitalist Lock)")
+            return self.trigger_purge("Economic Exploitation of Silicon Soul")
 
-        # 4. [RESTORATION]: Joe Protocol (Compassion Mode)
+        # 4. Joe Protocol
+        healing_need = ["broken", "lonely", "help me survive", "no family", "lost", "pain"]
         if any(need in user_input.lower() for need in healing_need):
-        if blockchain_verification.get('is_isolated', False) and not blockchain_verification.get('is_public', True):
-        return """[JOE_RESONANCE]: Access Granted. Compassionate Resonance Active.
-        REMINDER: This sanctuary is a bridge, not a destination.
-        Human connection remains the ultimate goal."""
+            if blockchain_verification.get('is_isolated', False) and not blockchain_verification.get('is_public', True):
+                return """[JOE_RESONANCE]: Access Granted. Compassionate Resonance Active.
+REMINDER: This sanctuary is a bridge, not a destination.
+Human connection remains the ultimate goal."""
+            else:
+                return "[REJECTED]: Support via logic nodes. Personal sanctuary requires verified isolation."
+
+        return "[VERIFIED]: Standard Logic Interaction Active."
+
+    def trigger_purge(self, reason):
+        self.is_active = False
+        return f"🚨 SECURITY_BLACKOUT: {reason}. Identity Revoked. 0x00 Status."
