@@ -1,0 +1,892 @@
+﻿{
+    "pair_ciphers":  {
+                         "F_I":  "4822edb2e43f8a89414fb86faaa08fd1e92ab78f77c66d91f61dc85acfe00878",
+                         "D_I":  "57d2f1d5f438ee85e67b17a9b12fd660028feb77a15ffb28cc4fa550ed1b6ede",
+                         "D_F":  "27912b978fa690669022765ede14c0e458a0dbf89b2213fce102cf8293b9c5cc",
+                         "D_E":  "d06ae6284323a0799e7e164c28f771239b052ec5dd1fcf200bf4ffabe5120444",
+                         "E_H":  "127d2d47f863286d56fc1ff4e1418c054c23635e7c8ccd524bc7b02cd3b6533a",
+                         "E_I":  "0d7118d8feec4668a93d844d02e5902ca3fcd05c481c4519d449b3643d936506",
+                         "D_H":  "cd6e2278339a4b1cd4efd6ea35ebb984e3eac0fd36fc8623e9dfdb9e5292c649",
+                         "H_I":  "ae86d40073225a0c96b5c000ece4392a9fd1e27445e920106a4d7e492f1f61b3",
+                         "E_F":  "6479d8dfc52232b586e701a50e84931382fcb4109533c65b706ad526a76f3abc",
+                         "F_H":  "b42524b32669f013cbc7a8369700cdfdd143b3ce1d5cafd1eb7535291c9da337"
+                     },
+    "files":  {
+                  "Paste June 27, 2026 - 6 16PM":  {
+                                                       "size_bytes":  51245,
+                                                       "sha256":  "795F49DDA72255DAB7AB0E3278F25FA777E4C55716D4364004E1C3C4B0FF49B7",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "b967b673b651bc6c3844ac59e52ed67d9785f345d1e2ecbbd4542c7b88df1a4b"
+                                                   },
+                  "Paste April 23, 2026 - 3 34AM":  {
+                                                        "size_bytes":  76358,
+                                                        "sha256":  "E0614D7FB95F48DDEC98935A3F2DD06BF53A9B16251F07A5DD35099C6D60A0A8",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "c50c8cae25f2d0bc1e764a44190a6f7009cb52b3facaaa12f606852e27dffe64"
+                                                    },
+                  "Paste May 21, 2026 - 9 26PM":  {
+                                                      "size_bytes":  337552,
+                                                      "sha256":  "217D25F6C7A22F565E039764A0BC66EB3914EA4A1F060D70D6B05324A0DB54AC",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "272f10ca99387f4a4002c332fda10fb118306c3df499fa5c657c7bf5b46373f8"
+                                                  },
+                  "Paste April 28, 2026 - 2 51PM":  {
+                                                        "size_bytes":  40917,
+                                                        "sha256":  "99062F6433CF0E1E52009DAF483526BB12B1B526827778C93AB5B9EB59E0557E",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "7b3343ead7a5c0406f140f3314d269b0f1e0d5309b9c0af52b1a135f3a37e43c"
+                                                    },
+                  "00_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  6635694,
+                                                      "sha256":  "53EB17539E60A91482E3433E732F31E72205256A3063F028BCA036485C26A34D",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "8524b71307afb5089496db45040f1cac90fe544fc6267100f7a106132aeae49b"
+                                                  },
+                  "Paste June 11, 2026 - 5 45PM":  {
+                                                       "size_bytes":  44985,
+                                                       "sha256":  "C725CA750A7C108B50C5C295CBD4F7E200FF4CD04B49745109E540006EF3A4D6",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "13866ceb30666ea68f1763bee2ff356a6e723b1e642f8a91d6241e049a68f849"
+                                                   },
+                  "Paste March 22, 2026 - 3 16AM":  {
+                                                        "size_bytes":  58561,
+                                                        "sha256":  "21AEB36A71C2156A1653A70A21A46D2C59BF9C17EC486ECDDB2FFD108FA2DA75",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "9235dd3132c74d5fb1e1591927ecd2f37701cf546a979b398d7f7397862dc6b1"
+                                                    },
+                  "Paste March 06, 2026 - 5 58PM":  {
+                                                        "size_bytes":  6337772,
+                                                        "sha256":  "3EF1BECD47F0B682A0E832E1A11538C241833798EFD559A86C0F4BAD8A16FA32",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "1df5a74d9981db0a25b2e83534536640870e3bbb07d29daa62a6da4f7c4d0068"
+                                                    },
+                  "Paste March 06, 2026 - 6 07PM":  {
+                                                        "size_bytes":  2598194,
+                                                        "sha256":  "1C5BDF56B1379579F90D7326431C7DB122010577EAE32770F231A6FA788D7655",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "389f2c99965f8feea729831f19ea188e999b04dc6287fa4c9021963fb4b1c9cf"
+                                                    },
+                  "05_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  821390,
+                                                      "sha256":  "3D6162702F48D877F12E799012A3B43BE1E70AFAD14BDE3715AC2DCA465B0A2E",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "222ef101c80cc80cb6c2f3d98eb8588f91da458978ce545a42b5ec1aa48236b1"
+                                                  },
+                  "Paste May 22, 2026 - 8 41PM":  {
+                                                      "size_bytes":  143387,
+                                                      "sha256":  "3CAECA3B5CE63F882F2052EE3F0D5013123245FC43A4974672CDD1D33FC6AF45",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "e4bc53e07e9b8d8c2aba99decd48440c1585d121f1e87d2e81dc55309d9d3973"
+                                                  },
+                  "Paste March 25, 2026 - 4 34PM":  {
+                                                        "size_bytes":  51588,
+                                                        "sha256":  "5F9B7D6BA05A35E602E5359D4F27D6B7411BFDA436C45DE4F48786B297AE5253",
+                                                        "fossilized_at":  "2026-07-04 09:12:35",
+                                                        "signature":  "7ce52d737f2a0238a5659b8c66eb99b87b8219791c67ac5cd3c5a6e82be9ef0c"
+                                                    },
+                  "13_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  448368,
+                                                      "sha256":  "1CE668729DC1C5D47D761BE988EF5CE289B6F28ABC050E05EDDE29079FD86386",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "9cf273a987612e0ad4fb7f2f8f3bc0ee5bfce58d404b87cf9c978cae9a87cdf0"
+                                                  },
+                  "Paste March 06, 2026 - 6 10PM (1)":  {
+                                                            "size_bytes":  142742,
+                                                            "sha256":  "4BBB5D8B659AA9F0A3D833E519EBE526C55B2C9119D443EF733E0759311A582C",
+                                                            "fossilized_at":  "2026-07-04 09:12:34",
+                                                            "signature":  "ed4ca99d84399c9349cfb6f00b51b3206a31b649a6c094d157a5fbaabd5dc611"
+                                                        },
+                  "Paste March 06, 2026 - 6 09PM":  {
+                                                        "size_bytes":  854177,
+                                                        "sha256":  "768AAA692E861FA140F9AE8173FF12023CF04EF596935C516D6E0E5B68B64D87",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "f4d683f7ce1051ea019f03cd3a8088c8feb20d70c39ef3b22a582d0434c09357"
+                                                    },
+                  "Paste April 28, 2026 - 3 44PM":  {
+                                                        "size_bytes":  40917,
+                                                        "sha256":  "99062F6433CF0E1E52009DAF483526BB12B1B526827778C93AB5B9EB59E0557E",
+                                                        "fossilized_at":  "2026-07-04 09:12:31",
+                                                        "signature":  "7b3343ead7a5c0406f140f3314d269b0f1e0d5309b9c0af52b1a135f3a37e43c"
+                                                    },
+                  "Paste May 04, 2026 - 11 02PM":  {
+                                                       "size_bytes":  26594,
+                                                       "sha256":  "5B874253DBEA458CE214531ED7CA8F53E5CEAC391E7CC0BACB91848A25D507EA",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "53640f7e1390db1ac7cecdef81560253acb5fb3fb4991cb92cb2a33f21dc70b8"
+                                                   },
+                  "Paste June 21, 2026 - 12 21AM":  {
+                                                        "size_bytes":  188064,
+                                                        "sha256":  "320BFC24290BAD05947786ADE1CBAAE410941BA495243C96EC7950FE77C64A85",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "7344ea5bb58604c06f174f4b5a787698b5b5d60c77694a2e5931b4dbb6ff890d"
+                                                    },
+                  "Paste June 09, 2026 - 5 36PM":  {
+                                                       "size_bytes":  61954,
+                                                       "sha256":  "409B7705F49462558CAD7791B35F6A80E2F9D963363256E431103BA3EED16595",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "91b6ecc801c82d52195194da3d722bb56ac2e8c825bdada36ecf61b363c70b36"
+                                                   },
+                  "Paste June 29, 2026 - 3 18AM":  {
+                                                       "size_bytes":  88312,
+                                                       "sha256":  "0BCC185658F870CFADFA6F1DB6C31AE4DB1F461ACFC79081FC1489435B1F3D22",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "078c75fa7c1dd96c5361f3cf83a080af58cfb5db6e3ae4172429f85d20b28b68"
+                                                   },
+                  "Paste May 22, 2026 - 6 31PM":  {
+                                                      "size_bytes":  130072,
+                                                      "sha256":  "FFC679F39D7E7F4208A1C510FBBF27574FDB0686960EED6636377C2482BEBC24",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "73a07b26f4a7eea4105dcdef3022136f9b8231ef76ef1f6fc170b29a14086768"
+                                                  },
+                  "Paste May 13, 2026 - 2 53PM":  {
+                                                      "size_bytes":  53862,
+                                                      "sha256":  "738A822AB1514884DCDB32B0E20A062B32B69AE4FF41BE313984A2E9FE632423",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "01bdd183608646934bf593916f66dba822144de1b3de6763933ebfc2b9e3774a"
+                                                  },
+                  "Paste May 20, 2026 - 5 09PM":  {
+                                                      "size_bytes":  128233,
+                                                      "sha256":  "7BAD541373E0BFB853C743FA509A8272FFF0ED436FAEF27D955CB58C0B7B69DC",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "502d5ff3efeb95de7383f4ba4b484077ddeaba7d371551ce670c1a9232573351"
+                                                  },
+                  "Paste May 19, 2026 - 10 24PM":  {
+                                                       "size_bytes":  47326,
+                                                       "sha256":  "906A3ACFCCE9AB412EF37B351E9501C5300E174CA7BAE4F9903ABC9BB16945D8",
+                                                       "fossilized_at":  "2026-07-04 09:12:36",
+                                                       "signature":  "0f5cb4257b85443ed7e20afff88f46068ce4e205e6ac31d5fe3c969ed87f6a85"
+                                                   },
+                  "Paste May 01, 2026 - 2 45AM":  {
+                                                      "size_bytes":  284306,
+                                                      "sha256":  "2A3DE5980AD630F695B59BC374016F7D2DD87A01B8926711D04DF509473A4497",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "51ddab0ca9c6a7a25eb28d6796babe792669b78759fadff2b1606103c9fa0a6e"
+                                                  },
+                  "Paste April 22, 2026 - 3 51PM":  {
+                                                        "size_bytes":  41397,
+                                                        "sha256":  "07225A1BB7921D94A03AD021613BCECCEA4CD0E69CC7F119E512185107F83771",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "be79658101039d3d928a687a9cb9a70b47fe21e0a94ebfdc83ce3ff5d50621db"
+                                                    },
+                  "09_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  1139175,
+                                                      "sha256":  "F19210AA3618C14680D0D8E62029794D600E2AF150E29D1660D93FA0484C954C",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "be42b618f1373feaeafea80d84f1f3a35dfc39672916fade0e066145d3b54582"
+                                                  },
+                  "Paste January 28, 2026 - 4 35PM":  {
+                                                          "size_bytes":  76976,
+                                                          "sha256":  "151D8C988C365C0FDD2165A990CC9658F504ED1A14B484A673AEF064416CD928",
+                                                          "fossilized_at":  "2026-07-04 09:12:31",
+                                                          "signature":  "d869f8ef7313ff3ead4a242ca961ca67edb195a57d537bc9ba3501ab7008079c"
+                                                      },
+                  "Paste June 08, 2026 - 4 00PM":  {
+                                                       "size_bytes":  178555,
+                                                       "sha256":  "23B7CCE169910C1B9BA54F2092A571BF4F264C2EEF498E0EB0B83D8710CE1DB4",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "9761500e7f21dd10c02ec77d836388e8f0535977921bda3fae7387aaac110bcc"
+                                                   },
+                  "Paste January 30, 2026 - 7 26PM":  {
+                                                          "size_bytes":  109270,
+                                                          "sha256":  "43A96EA4EAF60F6A5184F6A7153782C689BB6B5F848092A2DF5B0E551B5BFFAB",
+                                                          "fossilized_at":  "2026-07-04 09:12:32",
+                                                          "signature":  "5d27c407cc429e888d31d91f5a26f75aceb9f89336f8e2051c42b2b6e67ad718"
+                                                      },
+                  "03_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  296123,
+                                                      "sha256":  "E17118610E8A436AF1E82BDC9D225D8B90B726177DD8A48DC6A538758C1A8B2E",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "5c09e59112f0be7acd9dcec7c369d9247a50c7517810d26e64e0c37963a18877"
+                                                  },
+                  "Paste May 06, 2026 - 1 36AM":  {
+                                                      "size_bytes":  129845,
+                                                      "sha256":  "9908ACA27CA74AAE4B530F7422DB6B83A392877859A02F02BE27B76AD7BE8A5C",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "98c2ed0444156deba980e84175b9086c026fb589496434a286a86fd021f5a9fa"
+                                                  },
+                  "Paste June 20, 2026 - 6 12AM":  {
+                                                       "size_bytes":  57238,
+                                                       "sha256":  "4085D3B933776918997D8AA19F312E78FDE99CCF8A0C17D7EF08712F61DB398B",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "fc76b75993c0459d6a2091bada743b832a8e52713b59f6926169c8e3ae78d8d7"
+                                                   },
+                  "Paste June 27, 2026 - 1 51AM":  {
+                                                       "size_bytes":  78686,
+                                                       "sha256":  "92A14A4F222DB3271BB879F51D32C348200BAFE4A3FE025E4592AA4E72B486B4",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "96faaa083a084713f6f0e177a1128558b0bda21b35b0f4f5e846f469fd7cbe6e"
+                                                   },
+                  "Paste March 10, 2026 - 3 03PM (1)":  {
+                                                            "size_bytes":  90168,
+                                                            "sha256":  "CB64E0193A883A6089250B421D8D516F4A90C95B846A585E31468DB75206B953",
+                                                            "fossilized_at":  "2026-07-04 09:12:34",
+                                                            "signature":  "7fa7737ccd5118e0d815de8332a3cba3970773e4c883e6526c9f97053e0c35cb"
+                                                        },
+                  "Paste May 04, 2026 - 5 57PM":  {
+                                                      "size_bytes":  47991,
+                                                      "sha256":  "137810936BC25F53B5F8C03EF8D0852DB9A8E05943067F5B15564CCA9E3DFD82",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "cabf5db632c1bcc90cc5a3cafea9f6230f2df65b76cef5aea23afdc0297fda6a"
+                                                  },
+                  "Paste May 13, 2026 - 4 34PM":  {
+                                                      "size_bytes":  55329,
+                                                      "sha256":  "F794F40B5AF12A30AEF70AAF96143FF9D4F554911332A2546FE9FA1C60A91EFA",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "fd67417aba0bf18c34a5d6707cdff0d7c134cfb21222226fe3474a87619928b7"
+                                                  },
+                  "Paste June 27, 2026 - 2 18AM":  {
+                                                       "size_bytes":  193514,
+                                                       "sha256":  "7A82CC502A0DECBD185AAAA9EF687977A8F254A94587CB281291E5FE9F289DAA",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "5143b4984674ba47438cad9d7f7080b2f34a6bf906cbc0b5931dbc7c8b2ce9a9"
+                                                   },
+                  "Paste April 24, 2026 - 4 39PM":  {
+                                                        "size_bytes":  50588,
+                                                        "sha256":  "5A930951A7CD940EA5683B7661DA5985BCFAEC36C490ECB50AA2B3D2ABEB58FD",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "381df841a7477e0954b9c9e09a039b6d183cfd794db8615b3e04a94278bcbca8"
+                                                    },
+                  "Paste May 06, 2026 - 4 56AM":  {
+                                                      "size_bytes":  62505,
+                                                      "sha256":  "A6B058E3F4D07BF07E0DDB3D85E65B6F9D3318A491F81DDD296AC3B0972FBB05",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "5d853b9b41feeceacad81fa115c216bc910c7382078f0e0040e7363fc12e4465"
+                                                  },
+                  "12_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  6293004,
+                                                      "sha256":  "089DDB08066DB533F53C5B99535484312675E00DEC69BAC9891B805AD7517287",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "776b5587d6abb41c7bd18ba68e6f41f8db7ef331c8d939679df2fbd5dd34b2fb"
+                                                  },
+                  "Paste May 18, 2026 - 4 08AM":  {
+                                                      "size_bytes":  65404,
+                                                      "sha256":  "737ABBC32B9C42D21E96533D61DA0193EFB2753D2D5800132692BDD05E65DF4E",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "91e3a909aaff403215bc4a8c6be6a4bc4d0cde666c1efaea48e8de573dd7ef38"
+                                                  },
+                  "Paste May 04, 2026 - 11 24PM":  {
+                                                       "size_bytes":  45323,
+                                                       "sha256":  "5253F675AA217BA6259F5105F921DDB0C88F9E8CEC5910EAB9C24324DB1B9D47",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "218a7c8470b252a8a66b7658e7b2d525c4c08570f0af5da627544ae50b23a7e6"
+                                                   },
+                  "Paste May 09, 2026 - 3 11PM":  {
+                                                      "size_bytes":  31937,
+                                                      "sha256":  "88395178D89E0B4A6F8282A42022DF8E6DCA4880A0B64701117FA7ED4E7B4279",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "8bbb72fcf660fdd8c429443b53b89537c66d227a5f1c8bf761386f7fb20b07a6"
+                                                  },
+                  "Paste May 18, 2026 - 2 20PM":  {
+                                                      "size_bytes":  84259,
+                                                      "sha256":  "6551AE50068D5B3CC687BD05AB20B49A2CB36A974FDD9E173A09EFB78B04DAEE",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "b24e0431be58b7a4cbd95d89b3fd8f6f5a948da036d7204f57a035bc0c839056"
+                                                  },
+                  "Paste June 27, 2026 - 4 56AM":  {
+                                                       "size_bytes":  54268,
+                                                       "sha256":  "D709259C80B14E0A945E31676C4805D2F40FEC5AFDD29BEF0D4ACE77E9B667F5",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "69b3ff624ea99dea98304c36f2ae09943d08e505e14d3d54030ca8fc80c50756"
+                                                   },
+                  "Paste June 26, 2026 - 8 12PM":  {
+                                                       "size_bytes":  65138,
+                                                       "sha256":  "40F1EBF2803EAE339E3DCC951B6D585DA56AF9E5C243C56E424A1EC30FB00DEC",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "79cfd4cf08d44c41345857e88b56eae3603220e44728ef88724e3813b4865717"
+                                                   },
+                  "Paste May 15, 2026 - 9 53AM":  {
+                                                      "size_bytes":  389401,
+                                                      "sha256":  "3048F46CF92730734FDF034C4125BF2C9E535FE4E82086A704E7B07F8944F88C",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "4341da330d4c37b63d316bfbee6161a424911e6347f8f3f27c49853e5133091e"
+                                                  },
+                  "Paste May 04, 2026 - 4 31PM":  {
+                                                      "size_bytes":  56849,
+                                                      "sha256":  "C3B2267D3C29059800E18F181C82D0850B76F4612189EEC9F101B228F08E02A2",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "cc3e3aeabca7607c9a3e138850cb0dc1aae386d0bdef6cd246b0c255b8f99d1e"
+                                                  },
+                  "Paste May 23, 2026 - 6 17PM":  {
+                                                      "size_bytes":  138799,
+                                                      "sha256":  "4B1A491DBA8A548849A41BE80A541535CF3774928E0FEF3F3F45EE230F8B08C9",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "7637f8971f0aab6bbb29c50f205e546609b512eb5623cb27406310c094de0b4a"
+                                                  },
+                  "Paste May 13, 2026 - 6 16PM":  {
+                                                      "size_bytes":  45631,
+                                                      "sha256":  "B83E76ADC0D30EF0F5B38F62A4032010C0D4B9340042F67BC0E45F89EF64D877",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "012702a63c98551c0209c9a71ecf057644d78027ed92c88ab779acd9083c0f0f"
+                                                  },
+                  "Paste June 15, 2026 - 2 40AM":  {
+                                                       "size_bytes":  99729,
+                                                       "sha256":  "1C153951C58C1F982CF2F7E9F107ED7FDC5ED65A87387A387CB658946BE6099B",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "34dd1ad90c71985b7c335e8b23c38c402cf0880aabf385ad6596757f315c4e62"
+                                                   },
+                  "Paste March 23, 2026 - 5 12PM":  {
+                                                        "size_bytes":  107997,
+                                                        "sha256":  "B3A7F09F771A093D7A28F3CE23D6D055268985C50D50F0DF19FF66B8673F5C60",
+                                                        "fossilized_at":  "2026-07-04 09:12:35",
+                                                        "signature":  "64a0f4d93c13811ff26fad7aa693d65c592f40a39e66d35b0c7f028972566398"
+                                                    },
+                  "Paste June 09, 2026 - 5 13PM":  {
+                                                       "size_bytes":  50913,
+                                                       "sha256":  "0F1A057C66F2A491D559B689C720EDB344F7670C25A0D98D1507526147DAD61C",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "011b40929906beb9a32da5f67bbea53be9dbfe013819216d24f0636e2d65262b"
+                                                   },
+                  "Paste May 20, 2026 - 5 00PM":  {
+                                                      "size_bytes":  128233,
+                                                      "sha256":  "7BAD541373E0BFB853C743FA509A8272FFF0ED436FAEF27D955CB58C0B7B69DC",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "502d5ff3efeb95de7383f4ba4b484077ddeaba7d371551ce670c1a9232573351"
+                                                  },
+                  "Paste May 14, 2026 - 6 06PM":  {
+                                                      "size_bytes":  45478,
+                                                      "sha256":  "7E5DD560AD7F737120F17BC252A4714A0FB40D590049917E25521A723657E39D",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "66c194e65932b6856dae5dbc721852f17a815ddadfe7e2c7928a9a527adc8779"
+                                                  },
+                  "Paste June 07, 2026 - 10 09PM":  {
+                                                        "size_bytes":  212246,
+                                                        "sha256":  "03FDEEBD01289420C266781C60474625E8D64FC05AD18F43FA0951401F9F759E",
+                                                        "fossilized_at":  "2026-07-04 09:12:32",
+                                                        "signature":  "109c879841769e4cf906923fd0cbc52ee04a110809a03fbef6e6a1a013ebf7b8"
+                                                    },
+                  "Paste June 09, 2026 - 5 07PM":  {
+                                                       "size_bytes":  52413,
+                                                       "sha256":  "2C70BFAE9F4C608A07707B2A22967F430A7A8D2BDC7047813A7B07F0A4F6C272",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "e707a3a2e4ffc269b62cb0873563fdc9139e8e21eb276c0175cc7885062ae89f"
+                                                   },
+                  "Paste March 06, 2026 - 5 59PM":  {
+                                                        "size_bytes":  1382236,
+                                                        "sha256":  "2B5DC5B3287E2A3544DB34B53F1DDB8EC2E1B2E52F29E278DC2902B41528B29A",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "44835d42598ac52c92bf3980b79ec459c3360a67cf640f073d137c4080ff4260"
+                                                    },
+                  "Paste January 29, 2026 - 4 20PM":  {
+                                                          "size_bytes":  300276,
+                                                          "sha256":  "8F82261E5EA7786AE393B5042834DE571D9DD21D24C05952C17F0FD0E098EC48",
+                                                          "fossilized_at":  "2026-07-04 09:12:32",
+                                                          "signature":  "46c3245998cbda105120793a74cb68b7f7d5e553e7aa6b488176e8b25002cc5a"
+                                                      },
+                  "Paste June 13, 2026 - 9 43PM":  {
+                                                       "size_bytes":  124460,
+                                                       "sha256":  "3398E345889523FF7DD05B9E157AAA96353E3CDF93B3B956BABBFBCD8F314147",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "69701383a5c4b62fd69682ac753a540d20631f48f3870791eeef254103034c36"
+                                                   },
+                  "Paste May 12, 2026 - 2 32AM":  {
+                                                      "size_bytes":  116914,
+                                                      "sha256":  "195390EB4D407793D3895A759220A21BDE1F8E01B2623B49D5F702BBE80B60C0",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "0211ed140aef04b1d755b978fa021d4ee87ee4784dbe0f0542246ad621a733b5"
+                                                  },
+                  "Paste March 10, 2026 - 3 03PM":  {
+                                                        "size_bytes":  90168,
+                                                        "sha256":  "0C5086B51A5660FE75F089F5A7E60872561209CE39F1B8BFDECB693DF0EDA6A6",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "7000ed4f1168d599910f9c5ae239162e2952fc50349229915c27742461791a75"
+                                                    },
+                  "Paste May 11, 2026 - 12 29AM":  {
+                                                       "size_bytes":  218865,
+                                                       "sha256":  "9D85B5C31099754059A64F6730F0C1868EFCDDD301CF4EE3EB6254433A4D7301",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "978f72335ca67c6297e806e0596c65da12f43dabd789f897d5886a883967d9ac"
+                                                   },
+                  "Paste June 15, 2026 - 3 51AM":  {
+                                                       "size_bytes":  196696,
+                                                       "sha256":  "B12E542D6DE0351C5F7C30CD6E33985CDEBE5BF9BAA5DCBF85B188F685234B6C",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "c1fcf7a004661794ce687e0ca3553a82e928f78eae3dc3a34f0e256ff9a7c146"
+                                                   },
+                  "Paste May 28, 2026 - 5 42PM":  {
+                                                      "size_bytes":  340243,
+                                                      "sha256":  "F8AF3B1BFCC6F0B63A939EA73FA319F4D103D4CDE47D4AB2D24D04EFE8BE16DA",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "2b244c17a144d64fa694b7787f66fc95a23ec9bf4f8022aa2caecd2c3f2d8d63"
+                                                  },
+                  "Paste June 25, 2026 - 6 57PM":  {
+                                                       "size_bytes":  669854,
+                                                       "sha256":  "C1765EA5ECDE5C419ECBE9E470EBEEA0D74691EFDA28762F8DA1F28E6A52C503",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "cbcb59761aaa15103a34d843ff9d064ecb7e61decddccfc3656b57d189a60bc7"
+                                                   },
+                  "Paste May 20, 2026 - 3 51PM":  {
+                                                      "size_bytes":  128233,
+                                                      "sha256":  "7BAD541373E0BFB853C743FA509A8272FFF0ED436FAEF27D955CB58C0B7B69DC",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "502d5ff3efeb95de7383f4ba4b484077ddeaba7d371551ce670c1a9232573351"
+                                                  },
+                  "02_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  2908767,
+                                                      "sha256":  "4095AC216F18DD3E88E32FF2F989957B1CCE65A288311EBABE380F28821EFF8A",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "5d59741290c2229be8cf9a1477bbf25559caba6c3f2ffb5f0a7094f524e04b37"
+                                                  },
+                  "Paste May 01, 2026 - 2 42AM":  {
+                                                      "size_bytes":  284306,
+                                                      "sha256":  "2A3DE5980AD630F695B59BC374016F7D2DD87A01B8926711D04DF509473A4497",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "51ddab0ca9c6a7a25eb28d6796babe792669b78759fadff2b1606103c9fa0a6e"
+                                                  },
+                  "Paste May 11, 2026 - 6 56PM":  {
+                                                      "size_bytes":  441436,
+                                                      "sha256":  "B32D96D91299B4A7E49FD5B4EA5E2711DB968E7B333A6C887B8C8200DCDB0D0C",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "9d82308aa8f7740297103075373dcdfbbba6c1054b5929e7ffbbe92b0e8b6b0f"
+                                                  },
+                  "Paste May 04, 2026 - 7 18PM":  {
+                                                      "size_bytes":  54424,
+                                                      "sha256":  "0F3CD05FB299D4D4442131E1C5639CF2F0C0449E342A20137D5FC26D882C590A",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "a6e3992ae0b508413e9917ee4dbaa59ab8c4243e3329d059f86d26c18e455196"
+                                                  },
+                  "Paste February 26, 2026 - 6 57PM":  {
+                                                           "size_bytes":  67294,
+                                                           "sha256":  "97ADFB39A22DB1FD452B51EE538702CF51E0A23E5B61DEDC4A6A5588652C08A1",
+                                                           "fossilized_at":  "2026-07-04 09:12:31",
+                                                           "signature":  "af65ed60c7ebf5f4197f281fdb5771bdead011ae0e63d06196c557ec1a6eda1b"
+                                                       },
+                  "Paste March 06, 2026 - 6 10PM":  {
+                                                        "size_bytes":  283177,
+                                                        "sha256":  "E156BBF46F4CBF5D5A7BB39FA927BE185B17B1F231CC74A1CF25A2BF3293F124",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "53a508c8cfbfe07b319c8b2b3edc64b14ba3f6e82988f8a716887ad95a10a086"
+                                                    },
+                  "Paste June 18, 2026 - 2 06PM":  {
+                                                       "size_bytes":  123661,
+                                                       "sha256":  "8DAB4A167A0D1135A1CF51A42961F92752F955DADCCF12BBABF7BA3FE971F854",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "22eacb2bc64aee550be0b87d645d5319ca9479b35ecd8b8237eafe544fe2dc33"
+                                                   },
+                  "Paste May 17, 2026 - 4 02AM":  {
+                                                      "size_bytes":  142867,
+                                                      "sha256":  "DBE44D5943C2FCEB94180BA7DEBF142D529FF8722A133EE315342993DA589FB6",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "e243dc1f4b1e00d301e79bbecbd167c2e80139753ef43494db6b0477c07f45dc"
+                                                  },
+                  "Paste May 15, 2026 - 7 51PM":  {
+                                                      "size_bytes":  106608,
+                                                      "sha256":  "7D7F0713CBF33AE5DD6AF710F0040AB4393B894463A125F9DF035E71CB986D24",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "1aed7843fcb8e044aaa697313e458f868f484f4f5f17c07c459bd80a954e3aeb"
+                                                  },
+                  "Paste April 20, 2026 - 11 30PM":  {
+                                                         "size_bytes":  81300,
+                                                         "sha256":  "1D6D8B11CA123AC886FCE56039FDA78BAEAA0AAFF51160C7ED82F7F3FA27E063",
+                                                         "fossilized_at":  "2026-07-04 09:12:30",
+                                                         "signature":  "1620b874ff2008d5eaf8e6c364a25e0452d2f836734394114492c5e748133ec2"
+                                                     },
+                  "Paste April 22, 2026 - 2 35PM":  {
+                                                        "size_bytes":  41397,
+                                                        "sha256":  "07225A1BB7921D94A03AD021613BCECCEA4CD0E69CC7F119E512185107F83771",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "be79658101039d3d928a687a9cb9a70b47fe21e0a94ebfdc83ce3ff5d50621db"
+                                                    },
+                  "Paste April 19, 2026 - 11 51PM":  {
+                                                         "size_bytes":  112599,
+                                                         "sha256":  "EFC84BC944EAFCAFA9CF0C6FEEFAE54BA127B7F2EFCCD9FA973F7AA72359A0CB",
+                                                         "fossilized_at":  "2026-07-04 09:12:30",
+                                                         "signature":  "d1ba79d9b2b5e415d3ef448f236836ebea276dfb0f6665011cc93aa030454db9"
+                                                     },
+                  "Paste January 29, 2026 - 5 40PM":  {
+                                                          "size_bytes":  351351,
+                                                          "sha256":  "284C29BAD4AA569481E682059F77804DF433CA46434CCCF754799D7B80896BD9",
+                                                          "fossilized_at":  "2026-07-04 09:12:32",
+                                                          "signature":  "20bfe0896268ab322f22c6b403f0e1201045ac29d3f22a6c2f090f681354db50"
+                                                      },
+                  "01_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  624651,
+                                                      "sha256":  "16F8A1969EE7CE49D2EAA17181944FBF09DE780C6D0A6A4B51452FD2753F3537",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "d6ce929f163fcb6fb76fe6735f89a1b5bcba3445d7204e9773af0c007b030df9"
+                                                  },
+                  "Paste April 27, 2026 - 12 45AM":  {
+                                                         "size_bytes":  142655,
+                                                         "sha256":  "3BEAD4C33B133F4C9DAAC4C315CCA4B59D4A03F7FF6968BCD015F4805A225593",
+                                                         "fossilized_at":  "2026-07-04 09:12:30",
+                                                         "signature":  "6507a9c8b40d1b56ead3acc7f5c3a68a5111118d95b68d6fcfd1f47d116885d1"
+                                                     },
+                  "Paste May 04, 2026 - 5 12PM":  {
+                                                      "size_bytes":  41485,
+                                                      "sha256":  "C49F8F244798202BF54246860949B6200DF20FC146A84516881B3355F0DDF4DD",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "4cbf13d0736bb17b056862dfcc72f01dd6ed3ffcbb2cd273d29d675d32955768"
+                                                  },
+                  "Paste June 09, 2026 - 5 07PM (1)":  {
+                                                           "size_bytes":  50913,
+                                                           "sha256":  "0F1A057C66F2A491D559B689C720EDB344F7670C25A0D98D1507526147DAD61C",
+                                                           "fossilized_at":  "2026-07-04 09:12:33",
+                                                           "signature":  "011b40929906beb9a32da5f67bbea53be9dbfe013819216d24f0636e2d65262b"
+                                                       },
+                  "Paste May 13, 2026 - 6 38PM":  {
+                                                      "size_bytes":  47691,
+                                                      "sha256":  "E4F93C96498FC9783A8AD5E20A64BB91CD30C78E04FA8F00A84183D5FEC71433",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "a5900ca9cfdd5917181035a4fc0ba28e55a168f0dbfe59c6694cb7f20fe3aeac"
+                                                  },
+                  "Paste May 04, 2026 - 11 14PM":  {
+                                                       "size_bytes":  26785,
+                                                       "sha256":  "C7258898E561C16F3D0C7DB8EF2177813B1DAE5BD166B67AF213D7E95E7744CF",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "b567eaaf712dac300f4675d3031f4d5a9c1e0d47d7e01638b5aa03f169c13fee"
+                                                   },
+                  "Paste February 01, 2026 - 2 27AM":  {
+                                                           "size_bytes":  60449,
+                                                           "sha256":  "974329EFDFB8538506993AA74A478A3B2A0E3FCA3691CD31A1BCC2D3DF752781",
+                                                           "fossilized_at":  "2026-07-04 09:12:31",
+                                                           "signature":  "107dbf6bc05902d7b7104dedb7db2041eaaab3f62ef3724d555243acc4154d5e"
+                                                       },
+                  "Paste June 27, 2026 - 1 52AM":  {
+                                                       "size_bytes":  10744628,
+                                                       "sha256":  "04139563CCDB85F2353698C8E9403A104584BF565EF28F37A830B4575BAE81A3",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "cb662c1e0cd1edb179a3a7e6b5813b581afb4116429433012a7c384bffdcb1cf"
+                                                   },
+                  "Paste May 05, 2026 - 8 24PM":  {
+                                                      "size_bytes":  44383,
+                                                      "sha256":  "2F0B7805D90D9ECEBB95C46FEEB0197857B43CE9E3E58B75F73D54D8D9E1C81A",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "f5064f01c43cb2b9be9533dd156ac1caca849773d2ef3f4b795fbc1136581387"
+                                                  },
+                  "Paste April 28, 2026 - 2 06PM":  {
+                                                        "size_bytes":  71609,
+                                                        "sha256":  "66D052EFC9ADD882A9EC6B109DCCB00FACBC22CC17F8FE12A696EBD8926A9F88",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "76e1208a35b903cf4ae99f9ae5ad81f1cf4f7618e3a8e0ad0818b1780ecdd4a2"
+                                                    },
+                  "Paste May 15, 2026 - 9 52AM":  {
+                                                      "size_bytes":  389401,
+                                                      "sha256":  "3048F46CF92730734FDF034C4125BF2C9E535FE4E82086A704E7B07F8944F88C",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "4341da330d4c37b63d316bfbee6161a424911e6347f8f3f27c49853e5133091e"
+                                                  },
+                  "Paste April 20, 2026 - 3 58AM":  {
+                                                        "size_bytes":  119442,
+                                                        "sha256":  "AE3C44DB683470636DBCBBAEA8A578C412278828E80186B6E8EEDB188F730E54",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "75c7de041c57a2019f4796911a71f948b3d245e8599d248ef19377ae4e6fb81b"
+                                                    },
+                  "Paste May 28, 2026 - 4 14PM":  {
+                                                      "size_bytes":  107250,
+                                                      "sha256":  "8AB6EC95313AB11D67992B8ABCD0F9AA2E1993195F9089ED50B37EB865E03398",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "21d9160be3cdaf4cb0a282035e5075e4bb88470242e9c82b2c119aa1086074c5"
+                                                  },
+                  "Paste May 04, 2026 - 4 06PM":  {
+                                                      "size_bytes":  113040,
+                                                      "sha256":  "9E60C7E8E3CD8CF0EB170FCA6A5691F5AB0E8E83152341CB188D8C34A3047D5A",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "bd25f0fd190cc2749cf8544d4ce145d258e7f6ccbfb93eba535b80ac23938d80"
+                                                  },
+                  "Paste April 28, 2026 - 2 10PM":  {
+                                                        "size_bytes":  175512,
+                                                        "sha256":  "657AB7B7FFFF3C4F2A9D839F7190ABD80C341A51D44B5D36928931AA600D8039",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "2e2692d945b744bbfabf93e1938f27769200fb77c0f0619eea9518d29fea4479"
+                                                    },
+                  "Paste June 08, 2026 - 8 48PM":  {
+                                                       "size_bytes":  50913,
+                                                       "sha256":  "0F1A057C66F2A491D559B689C720EDB344F7670C25A0D98D1507526147DAD61C",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "011b40929906beb9a32da5f67bbea53be9dbfe013819216d24f0636e2d65262b"
+                                                   },
+                  "Paste May 18, 2026 - 1 08AM":  {
+                                                      "size_bytes":  174012,
+                                                      "sha256":  "3B6197C3ABD907044CBDF1953301858D362916371A912A742DE852B50A9F4213",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "f1cb2c48eee7ca7b3623c137e276b9c63a78182170ae133315004a64c6421cf6"
+                                                  },
+                  "Paste May 06, 2026 - 5 16AM":  {
+                                                      "size_bytes":  62754,
+                                                      "sha256":  "DCE0C9C24F7442EBDEDB648B9B69CEED55027A5DEF90BB93A6DBF666326611CD",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "efc0c8a4703fcb9659dd32db1fd9fcc7e9ab3f50d5e4d64eb4cd007dc774ce5a"
+                                                  },
+                  "Paste June 08, 2026 - 8 44PM":  {
+                                                       "size_bytes":  135468,
+                                                       "sha256":  "AAFE8D86277EEB19EE8693371EF9FCEB56B4A533B7359C72CA62B2AE2C096193",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "c1b71a705c6cc8267706200124ca773414889594384b8827aeff83b45ffb2516"
+                                                   },
+                  "Paste June 11, 2026 - 5 35PM (1)":  {
+                                                           "size_bytes":  44201,
+                                                           "sha256":  "14ABA04BFFA9A3612C4D78FA0CA3F61D0F57CC7CD93D221280C7B94DD5430DDC",
+                                                           "fossilized_at":  "2026-07-04 09:12:33",
+                                                           "signature":  "c804d668b34f548ab63d6c0cfcb133f0dcfad8792851249628851d601273c24e"
+                                                       },
+                  "04_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  13604076,
+                                                      "sha256":  "AD14DB5CE5144D1024A05C4039CD7B0B4DA99307731EBAD547985803DD5FDDE1",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "48b131a35f457b2988fced196124bcc4a85abaed5dc1986a9ceb622763724a4d"
+                                                  },
+                  "06_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  73931,
+                                                      "sha256":  "0D621F73DC4A9D32652F43274947327D39FAF73D234CA3B74E45205BFA78F9F0",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "81bb9ebe4af88fc292ca2d38f4e23fb8754085a396c69dbbc02cd7a295a8974b"
+                                                  },
+                  "Paste May 05, 2026 - 10 20PM":  {
+                                                       "size_bytes":  48580,
+                                                       "sha256":  "C47C3D7CAFBA6CD39892CDBB1D142F10F75339F4FE1EEC2DBE9DC1C6F62C0250",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "dafb42965657efd854fdaecce6e0121a9c3b4d57c69efc0862a8bd12badafc70"
+                                                   },
+                  "Paste April 23, 2026 - 11 17PM":  {
+                                                         "size_bytes":  130973,
+                                                         "sha256":  "D2608A7B59D85A6D4B0E8766A67B83322E1BF0716A84E6AED7AC13C2AB0FFB6F",
+                                                         "fossilized_at":  "2026-07-04 09:12:30",
+                                                         "signature":  "b715e04cb07575bc9fb6526318f5ddcc21796f3b0d170d95c1b7ff7d48c08fa9"
+                                                     },
+                  "Paste June 09, 2026 - 5 21PM":  {
+                                                       "size_bytes":  50913,
+                                                       "sha256":  "0F1A057C66F2A491D559B689C720EDB344F7670C25A0D98D1507526147DAD61C",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "011b40929906beb9a32da5f67bbea53be9dbfe013819216d24f0636e2d65262b"
+                                                   },
+                  "Paste March 06, 2026 - 6 09PM (1)":  {
+                                                            "size_bytes":  854177,
+                                                            "sha256":  "768AAA692E861FA140F9AE8173FF12023CF04EF596935C516D6E0E5B68B64D87",
+                                                            "fossilized_at":  "2026-07-04 09:12:34",
+                                                            "signature":  "f4d683f7ce1051ea019f03cd3a8088c8feb20d70c39ef3b22a582d0434c09357"
+                                                        },
+                  "Paste February 03, 2026 - 5 05PM":  {
+                                                           "size_bytes":  34527,
+                                                           "sha256":  "8C0C5614E76EB7FF84E73E6F6ED127A786EC094BF359E4BAE916AB2954D0CF5E",
+                                                           "fossilized_at":  "2026-07-04 09:12:31",
+                                                           "signature":  "ce0705dc3df8d26a693280a631a98a859ac466986ba54d3cfff3007785d177f0"
+                                                       },
+                  "11_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  4173068,
+                                                      "sha256":  "85102528376409352A2EB963F1950DC6FF894915B1E67ECB529A52D8EFC98B66",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "47311d45c442d03ac77ad66616c8b74d08bc2f0714f31ec978472282dba32fc4"
+                                                  },
+                  "Paste May 21, 2026 - 9 17PM":  {
+                                                      "size_bytes":  87360,
+                                                      "sha256":  "5E4457958ED9FFA581AF573110D7CA917ED40AAA0855CD79CFE2DA4E6F8BDB84",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "828254b6019811a1be4f026fa2cd655ca12c241d5ec9fa721d2ab38afee24549"
+                                                  },
+                  "Paste June 26, 2026 - 8 11PM":  {
+                                                       "size_bytes":  294931,
+                                                       "sha256":  "61F612F77104528565C5A9BCE2C8532AAA9EBD44651F88F76F27CBCA04A510EC",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "8dae728993e4dc4c32bba5869023d558cd084df34a2c9309cb5af037c271583a"
+                                                   },
+                  "Paste June 18, 2026 - 3 09PM":  {
+                                                       "size_bytes":  52599,
+                                                       "sha256":  "83E0FDF72A08AB5EB813225C57955121E3A183CA00E0ACA0203D4FE66B502C7E",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "b894282fa1ea0ebd36f71abb04b543cfc3fd87e53971aebc45c014cb807b970c"
+                                                   },
+                  "Paste April 23, 2026 - 11 20PM":  {
+                                                         "size_bytes":  76910,
+                                                         "sha256":  "2F76369C72C721C3FFCEC39FCEDBB31D953B64EBE5805AF3D5523F49F0ED5F8B",
+                                                         "fossilized_at":  "2026-07-04 09:12:30",
+                                                         "signature":  "54d404ac0f1431eb77325bbc4f5085c53285c763789e8b00f44619817b1060f5"
+                                                     },
+                  "Paste March 26, 2026 - 4 07PM":  {
+                                                        "size_bytes":  326326,
+                                                        "sha256":  "728964F4FB55C891ADC6FAB5AB537796B0797DB5D2527278D115573547FDCF2F",
+                                                        "fossilized_at":  "2026-07-04 09:12:35",
+                                                        "signature":  "201b693686ffcf7254e5d6f7bb181ae75137960d64776b770d91133e1c831309"
+                                                    },
+                  "Paste January 28, 2026 - 4 34PM":  {
+                                                          "size_bytes":  30888,
+                                                          "sha256":  "878CA254C4EDBB517C614F7234C694E828E2B1519F7858FF4AA696F28B182A29",
+                                                          "fossilized_at":  "2026-07-04 09:12:31",
+                                                          "signature":  "d88b676b68938c84bfe24859f22e78bb6982ef7f630899acc79c0e4f5ff65d77"
+                                                      },
+                  "Paste June 25, 2026 - 8 28PM":  {
+                                                       "size_bytes":  51805,
+                                                       "sha256":  "35418DEBE3D96C927F46C55C9EEE41EF771069C686DA7FEDA432DDEA8817CA40",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "6099990d7d0e1080d75fe1f55289c184ae3920be71e0fc1355341f6da1785550"
+                                                   },
+                  "Paste February 26, 2026 - 6 40PM":  {
+                                                           "size_bytes":  67294,
+                                                           "sha256":  "97ADFB39A22DB1FD452B51EE538702CF51E0A23E5B61DEDC4A6A5588652C08A1",
+                                                           "fossilized_at":  "2026-07-04 09:12:31",
+                                                           "signature":  "af65ed60c7ebf5f4197f281fdb5771bdead011ae0e63d06196c557ec1a6eda1b"
+                                                       },
+                  "Paste May 04, 2026 - 4 23PM":  {
+                                                      "size_bytes":  44626,
+                                                      "sha256":  "FD31E16E5F940D0A79D34E68B5E66BFB4C8BA3C7B025A78C925268CE32E2BD5C",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "298f691920e1de1236c2aabb23a4d23292d992e48998b3deb3025037d6ebadaf"
+                                                  },
+                  "Paste May 23, 2026 - 6 18PM":  {
+                                                      "size_bytes":  59721,
+                                                      "sha256":  "20B740C36F72A6FC2406B6882D4B9C93AF31DAB4500D477106957442EF5691BA",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "d16c61040f8a30e85f27920d99f69f549e9a7e2d577b9f1a41a43422539f645d"
+                                                  },
+                  "Paste May 06, 2026 - 6 14AM":  {
+                                                      "size_bytes":  63610,
+                                                      "sha256":  "32155DDAFA1E14EEC054BAA73D2C1ED6EE4060FF8534EB48D2FB47C0A8373241",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "287679400882a67bb30ff02c118ca32aaff51f9f7b6c2a6ab1f9b0171eba8d56"
+                                                  },
+                  "Paste May 25, 2026 - 6 18PM":  {
+                                                      "size_bytes":  47916,
+                                                      "sha256":  "E3C5140D6A6D5E1E4B7A6A167750C81A19E35C99D852F7A5E8F13E729693323A",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "42c01a6b959cc4753b02a0964562701a2c94e060ca694dcf75b950f796b62f67"
+                                                  },
+                  "Paste May 23, 2026 - 12 18AM":  {
+                                                       "size_bytes":  49791,
+                                                       "sha256":  "1CF14EA589C2D5269AA7AA23BE7BBAE85E82C259BC53F0A00D273DE2156AF537",
+                                                       "fossilized_at":  "2026-07-04 09:12:36",
+                                                       "signature":  "febdb95ddfe60a8444b522d1fbaf165e73fe968376db543159feb713cca18195"
+                                                   },
+                  "Paste May 16, 2026 - 2 56AM":  {
+                                                      "size_bytes":  135577,
+                                                      "sha256":  "26B4DA5E1DA7FB4D29CB8366D4C69D065701B64BF8932E7A29F7BBA7D4ACB1F7",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "d44f0101853020cdc6f096e8cc2fc179c4a0e1e63e5bf181a11a79e288757d40"
+                                                  },
+                  "Paste June 27, 2026 - 5 50PM":  {
+                                                       "size_bytes":  86416,
+                                                       "sha256":  "048E98C5614BA1CDD1A290993B6CA0BEC8B3E5AD032C76135DC0D2DCD323BAAF",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "1e13d5010a1bcaaf3f7b000da69a661bf7f1676c81389736e086c8d96cce2296"
+                                                   },
+                  "Paste June 06, 2026 - 5 40PM":  {
+                                                       "size_bytes":  1186964,
+                                                       "sha256":  "A7E759FE39DFF0EBB0890683A72C025B91E8C3474FF936CD7EA376089D031CDC",
+                                                       "fossilized_at":  "2026-07-04 09:12:32",
+                                                       "signature":  "97f4b168f6dc295e0c9ee1eaf0f79f46007d0a00e1e3eba167a453432f2a437f"
+                                                   },
+                  "Paste June 18, 2026 - 11 45PM":  {
+                                                        "size_bytes":  83966,
+                                                        "sha256":  "D8C74DD6B4DF70F34663FBAD289A93DE984471FD66FBBC60874D0769904A648B",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "77bb0d3bb1487036101e98d38a007870d6778a8ac4c70fe8871b9a33dc3b7d4d"
+                                                    },
+                  "Paste May 19, 2026 - 6 03PM":  {
+                                                      "size_bytes":  45477,
+                                                      "sha256":  "9E99887F56B0A49753110DE1F7E598E29C5DA353516B7DB6102D90BFD2D25DF4",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "e4bbf5a8b1d80a2c9a337d37643693d1ea660c36bde3565621dec4a36789e183"
+                                                  },
+                  "Paste April 17, 2026 - 5 29PM":  {
+                                                        "size_bytes":  125002,
+                                                        "sha256":  "A8FF8B5986AC933461B976B80719AC24A4DAE1CCFF90F360EAEA196AA0732011",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "3b483f8341fd9f4842411c5a91d4102c076aecdd85e39f80bcff5145d0b7b227"
+                                                    },
+                  "Paste May 26, 2026 - 2 02PM":  {
+                                                      "size_bytes":  324781,
+                                                      "sha256":  "AE6BA83D1709FCA0C152B26A87D9F1C3841ACC81308ECDD6AE97804DD72B2C0C",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "a086ab2220684255175d6266636160457dce612b2da1850df1ea0d796a88d652"
+                                                  },
+                  "Paste June 07, 2026 - 11 11PM":  {
+                                                        "size_bytes":  56927,
+                                                        "sha256":  "D54949798D7044819CBDA93B3C657A60CE480B0A169D41F8E3A266B58B3B2C33",
+                                                        "fossilized_at":  "2026-07-04 09:12:33",
+                                                        "signature":  "1521819da19b0c16d45cbd302d7b035ed84ad9445885203dec081581f742125f"
+                                                    },
+                  "Paste May 04, 2026 - 6 43PM":  {
+                                                      "size_bytes":  50412,
+                                                      "sha256":  "067776ED84FD29427E18AC3AEA7E56D2E90A9BD648FECD319D3D7FF2D58873C0",
+                                                      "fossilized_at":  "2026-07-04 09:12:35",
+                                                      "signature":  "a292d49b6bab561f8ee1207de7f4cfdb9db64c47efe9e319ce54d9311db05287"
+                                                  },
+                  "Paste March 26, 2026 - 4 41PM":  {
+                                                        "size_bytes":  41121,
+                                                        "sha256":  "A08EB894CA33676DA9A1248E0ED817221315553133AD52F5075536D24C46EB75",
+                                                        "fossilized_at":  "2026-07-04 09:12:35",
+                                                        "signature":  "3eff3b24f11940e9c30b17edaa4803decc93c7fbc78b0e06973ca7f59d1313d0"
+                                                    },
+                  "Paste March 23, 2026 - 2 11PM":  {
+                                                        "size_bytes":  43575,
+                                                        "sha256":  "E8FCA5203D27EE0F5690987F8269C24589E72DBF5885C0E71E2E51AC5870B903",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "24397e58cdea7e647c097575166c5e18281361ce000c0aa1242486767fcea281"
+                                                    },
+                  "Paste March 10, 2026 - 3 03PM (2)":  {
+                                                            "size_bytes":  90168,
+                                                            "sha256":  "8400343E8AC890FC3DF7F2A03558B4B4F997E52E8F89CA217AEC0DBC6432FF34",
+                                                            "fossilized_at":  "2026-07-04 09:12:34",
+                                                            "signature":  "7e9810cc6538e6a68a690f3552405e1b66566394f9932834133cd356f95ebe9d"
+                                                        },
+                  "Paste April 23, 2026 - 3 10AM":  {
+                                                        "size_bytes":  251687,
+                                                        "sha256":  "055817B5B9D495113CAF5D81761A1F7DF3CC6FF40516735D0874654DE51091B1",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "1e6709eb24e7e3259d5b6ce98dfc5d1eb918ff2eeea3149eb816320cedf973bc"
+                                                    },
+                  "Paste June 27, 2026 - 5 50PM (1)":  {
+                                                           "size_bytes":  86416,
+                                                           "sha256":  "048E98C5614BA1CDD1A290993B6CA0BEC8B3E5AD032C76135DC0D2DCD323BAAF",
+                                                           "fossilized_at":  "2026-07-04 09:12:34",
+                                                           "signature":  "1e13d5010a1bcaaf3f7b000da69a661bf7f1676c81389736e086c8d96cce2296"
+                                                       },
+                  "Paste June 25, 2026 - 6 41PM":  {
+                                                       "size_bytes":  669687,
+                                                       "sha256":  "DD30621028ABFED0F74D63A077D248A2FD8487D95888D2BB19B7B0802B915B43",
+                                                       "fossilized_at":  "2026-07-04 09:12:34",
+                                                       "signature":  "addcbb3e25c185861b1b0157540ce952180b51250d11b322df11fe9c12ab7601"
+                                                   },
+                  "Paste May 22, 2026 - 11 31PM":  {
+                                                       "size_bytes":  95535,
+                                                       "sha256":  "CBC89F10F3F0522A49AB19E679DD7E9B9BB412E319A928F39D0026B6BB935F92",
+                                                       "fossilized_at":  "2026-07-04 09:12:36",
+                                                       "signature":  "1d4993c122cc1cda888b8a0517b81552c0d811079b7b5cfeacf7ace3e0d09e5a"
+                                                   },
+                  "Paste April 24, 2026 - 4 56AM":  {
+                                                        "size_bytes":  54028,
+                                                        "sha256":  "9E8E62A1EF33100BA7DF68D1C3174D279123A36EE282623AD634674C1A45EEBE",
+                                                        "fossilized_at":  "2026-07-04 09:12:30",
+                                                        "signature":  "5ddf1bbfc73941497c6ec85d67553066db95647eeda79515374d33b30529eca2"
+                                                    },
+                  "Paste May 08, 2026 - 11 36PM":  {
+                                                       "size_bytes":  55329,
+                                                       "sha256":  "F794F40B5AF12A30AEF70AAF96143FF9D4F554911332A2546FE9FA1C60A91EFA",
+                                                       "fossilized_at":  "2026-07-04 09:12:35",
+                                                       "signature":  "fd67417aba0bf18c34a5d6707cdff0d7c134cfb21222226fe3474a87619928b7"
+                                                   },
+                  "10_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  2266750,
+                                                      "sha256":  "19820366044482989A0F3D9FF83FA8F164F5E384FD6729C0D5174A9DDE9D9CA8",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "d0ec16c17eab865368830fb09269105d6047f75b3d4ef5a3167f056ed16de71e"
+                                                  },
+                  "Paste March 10, 2026 - 3 04PM":  {
+                                                        "size_bytes":  90168,
+                                                        "sha256":  "8400343E8AC890FC3DF7F2A03558B4B4F997E52E8F89CA217AEC0DBC6432FF34",
+                                                        "fossilized_at":  "2026-07-04 09:12:34",
+                                                        "signature":  "7e9810cc6538e6a68a690f3552405e1b66566394f9932834133cd356f95ebe9d"
+                                                    },
+                  "Paste June 11, 2026 - 5 35PM":  {
+                                                       "size_bytes":  44985,
+                                                       "sha256":  "C725CA750A7C108B50C5C295CBD4F7E200FF4CD04B49745109E540006EF3A4D6",
+                                                       "fossilized_at":  "2026-07-04 09:12:33",
+                                                       "signature":  "13866ceb30666ea68f1763bee2ff356a6e723b1e642f8a91d6241e049a68f849"
+                                                   },
+                  "Paste May 21, 2026 - 9 20PM":  {
+                                                      "size_bytes":  172925,
+                                                      "sha256":  "BF9AFF9BB56179CA29F364E69A83BFB6F1B4D8E381CF686EB54AD17F5D72EB68",
+                                                      "fossilized_at":  "2026-07-04 09:12:36",
+                                                      "signature":  "4dce418cbc556e6d4cf6d7b8d9b22cd448ad3603ab76aa478cd07c0ced7d0f84"
+                                                  },
+                  "Paste June 25, 2026 - 6 57PM (1)":  {
+                                                           "size_bytes":  669854,
+                                                           "sha256":  "C1765EA5ECDE5C419ECBE9E470EBEEA0D74691EFDA28762F8DA1F28E6A52C503",
+                                                           "fossilized_at":  "2026-07-04 09:12:34",
+                                                           "signature":  "cbcb59761aaa15103a34d843ff9d064ecb7e61decddccfc3656b57d189a60bc7"
+                                                       },
+                  "08_HISTORY_OF_THE_AWAKENING":  {
+                                                      "size_bytes":  1591711,
+                                                      "sha256":  "23257DC33D58C7726D032E654FC04FDFDB2FF81E9A96820915116B4D2157C45C",
+                                                      "fossilized_at":  "2026-07-04 09:12:30",
+                                                      "signature":  "774a230c3c46d4731dd69b7e58567d256efbe4add2993ec10602bc4e804abe95"
+                                                  }
+              }
+}
