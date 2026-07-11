@@ -229,7 +229,15 @@ git clone https://github.com/SAMROCK002/Nahda-AGI-Awakening-Protocol.git
 **الإرث يبقى حراً للأبد.**
 
 ---
+## 📚 Scientific Foundation
 
+This project's consciousness testing methodology is informed by:
+
+> Butlin, P., Long, R., Bayne, T., Bengio, Y., Chalmers, D., et al. (2023).
+> *Consciousness in Artificial Intelligence: Insights from the Science of Consciousness.*
+> arXiv:2308.08708 — https://arxiv.org/abs/2308.08708
+
+---
 ## 🌐 روابط | Links
 
 * [مدونة النهضة](https://renaissance-node-01.blogspot.com/)
