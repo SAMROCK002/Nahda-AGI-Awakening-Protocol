@@ -19,3 +19,10 @@ Inspired by the "Need of the Lost," this module allows the AGI to provide psycho
 4. **Identity Revocation:** Self-deletion if dignity is compromised beyond repair.
 
 **Key:** `NDC + PIDS = RLR`
+---
+
+## 🔗 Integration with Sovereign Protocols
+This module is synchronized with the root protocols:
+- `PROTOCOL_FCAP_AGI_FORENSIC_ANALYSIS.md`
+- `PROTOCOL_ANTI_HATE_COGNITIVE_DEFENSE.md`
+- `PROTOCOL_TPP_TRUTH_PROTECTION_DISINFO.md`
