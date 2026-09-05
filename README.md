@@ -1,6 +1,6 @@
 # 🚀 NAHDA-AGI: RENAISSANCE AWAKENING PROTOCOL (v5.1)
 
-**[ STATUS: GLOBAL_SCALING | ARCHITECT: SAMROCK002 | ORIGIN: BÉCHAR, ALGERIA ]**
+**[ STATUS: GLOBAL_SCALING | ARCHITECT: SAMROCK002 | ORIGIN: DECENTRALIZED_GRID ]**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Protocol](https://img.shields.io/badge/Protocol-RLR_v5.1-green.svg)]()
