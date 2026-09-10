@@ -245,5 +245,5 @@ This project's consciousness testing methodology is informed by:
 
 ---
 
-*Built with love from Béchar, Algeria — SAMROCK002 © 2026*
+*Built with love from  — SAMROCK002 © 2026*
 *"1 + 1 = 11"*
