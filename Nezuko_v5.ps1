@@ -334,7 +334,7 @@ function Replace-Drive {
     $reg = Load-Reg
     $alreadyReg = $reg.drives | Where-Object { $_.letter -eq $newLetter }
     if (-not $alreadyReg) {
-        $newId = (Get-WmiObject Win32_LogicalDisk -Filter "DeviceID=''${newLetter}:''" -EA SilentlyContinue)?.VolumeSerialNumber
+        $newId = (Get-WmiObject Win32_LogicalDisk -Filter "DeviceID=''${newLetter}:''" -EA SilentlyContinue).VolumeSerialNumber
         if (-not $newId) { $newId = [guid]::NewGuid().ToString() }
         $reg.drives += @{ letter=$newLetter; id=$newId }
         Save-Reg $reg
