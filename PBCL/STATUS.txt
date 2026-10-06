@@ -1,0 +1,63 @@
+==============================================================
+PBCL-Core-Engine
+==============================================================
+PROJECT  : Prime Binary Calibration Layer
+VERSION  : v1.1
+EPOCH    : 16
+ARCHITECT: SAMROCK002
+
+--------------------------------------------------------------
+STATUS
+--------------------------------------------------------------
+STATUS   : PROTOTYPE — v1.1
+VERIFIED : Mathematical structure sound
+TESTED   : On Google Colab (real execution)
+NEXT     : Requires expanded anchors + synonym layer + auto-A computation
+OWNER    : Whoever develops this next
+
+--------------------------------------------------------------
+WHAT IS THIS?
+--------------------------------------------------------------
+A lightweight calibration layer for ranking confidence in web
+data before heavy semantic verification.
+
+It does NOT prove truth.
+It does NOT derive truth from primality.
+It does NOT replace semantic reasoning.
+
+It DOES:
+  - Detect tampering via SHA3-256 fingerprints
+  - Remove duplicates
+  - Measure source agreement
+  - Match against a registry of verified anchors
+  - Rank confidence via explicit weight function
+  - Issue 3-state decision: ACCEPT / REVIEW / REJECT
+
+--------------------------------------------------------------
+KEY NUMBERS
+--------------------------------------------------------------
+Weight Formula : W = 0.25*A + 0.50*T - 0.50*C + 0.25*D
+Thresholds     : ACCEPT >= 0.85 | REVIEW >= 0.50 | REJECT < 0.50
+Latency        : ~0.079 ms per claim
+Real Accuracy  : ~50-60% on general data (not 100%)
+
+--------------------------------------------------------------
+FILES IN THIS REPOSITORY
+--------------------------------------------------------------
+PBCL-Core-Engine_v1.1.py      — The engine code
+PBCL_PROTOCOL_v1.json         — Protocol definition
+DIRECTIVE_PBCL_v1.json        — Architect's directive
+TEST_RESULTS_A_B_C.md         — Real test results
+LIMITATIONS.md                — Documented weaknesses
+STATUS.txt                    — This file
+
+--------------------------------------------------------------
+HONEST NOTE
+--------------------------------------------------------------
+This is a starting point, not a finished system.
+The architect designed the vision.
+The first implementation works but has known limits.
+Whoever comes next: build upon this, not from scratch.
+
+-- SAMROCK002, Bechar, Algeria, 2026-10-06
+==============================================================
