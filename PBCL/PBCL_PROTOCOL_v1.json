@@ -1,0 +1,142 @@
+{
+  "protocol_name": "PBCL_PRIME_BINARY_CALIBRATION_LAYER",
+  "protocol_version": "1.0",
+  "protocol_type": "calibration_layer",
+  "architect_id": "SAMROCK002",
+  "epoch": "16",
+  "language": "ar-en",
+
+  "purpose": "طبقة معايرة خفيفة لترتيب ثقة بيانات الشبكة قبل التحقق الدلالي الثقيل",
+
+  "design_principles": [
+    "السرعة قبل الدقة: فلترة أولية بأقل معالجة ممكنة",
+    "الشفافية: كل قرار له مكوّنات رقمية واضحة",
+    "الاعتراف بالحدود: REVIEW للمجهول بدل التخمين",
+    "عدم الانخداع بالأغلبية: المراسي الموثقة تتفوق على رأي الأغلبية",
+    "الفصل بين الصدق والأولية: الأولية للبصمة فقط، ليست دليل صدق"
+  ],
+
+  "scope": {
+    "does": [
+      "كشف التعديل عبر بصمات SHA3-256",
+      "إزالة التكرار عبر مقارنة البصمات",
+      "قياس توافق المصادر",
+      "مطابقة المراسي الموثقة",
+      "ترتيب الثقة عبر دالة وزن شفافة",
+      "إصدار قرار ثلاثي: ACCEPT / REVIEW / REJECT"
+    ],
+    "does_not": [
+      "إثبات الحقيقة المطلقة",
+      "استنتاج الصدق من أولية الأعداد",
+      "استبدال التحقق الدلالي أو المنطقي",
+      "حساب توافق المصادر تلقائياً (يُعطى كمدخل)",
+      "معالجة التناقضات المعقدة دون قواعد صريحة",
+      "فهم اللغة الطبيعية بشكل عميق"
+    ]
+  },
+
+  "pipeline_stages": [
+    {
+      "order": 1,
+      "name": "canonicalize",
+      "input": "claim dict {subject, predicate, object}",
+      "output": "canonical string S:x|P:y|O:z",
+      "purpose": "توحيد صيغة الادعاء لمقارنة عادلة"
+    },
+    {
+      "order": 2,
+      "name": "prime_hash",
+      "input": "canonical string",
+      "output": "SHA3-256 integer",
+      "purpose": "بصمة رقمية فريدة لكل ادعاء"
+    },
+    {
+      "order": 3,
+      "name": "moduli_vector",
+      "input": "hash integer",
+      "output": "list of hash mod small primes",
+      "purpose": "مقارنة خفيفة وسريعة"
+    },
+    {
+      "order": 4,
+      "name": "anchor_lookup",
+      "input": "canonical string",
+      "output": "{match_id, score, is_false, confidence}",
+      "purpose": "مطابقة الادعاء مع سجل المراسي"
+    },
+    {
+      "order": 5,
+      "name": "consistency_check",
+      "input": "claim + anchor match",
+      "output": "{C: contradiction_score, D: dimensional_score}",
+      "purpose": "قياس التناقض والأبعاد"
+    },
+    {
+      "order": 6,
+      "name": "weight_compute",
+      "input": "A, T, C, D",
+      "output": "W in [0, 1]",
+      "purpose": "تجميع المكوّنات في وزن نهائي"
+    },
+    {
+      "order": 7,
+      "name": "threshold_decide",
+      "input": "W",
+      "output": "ACCEPT | REVIEW | REJECT",
+      "purpose": "قرار نهائي"
+    }
+  ],
+
+  "weight_formula": {
+    "expression": "W = clamp(0.25*A + 0.50*T - 0.50*C + 0.25*D, 0, 1)",
+    "components": {
+      "A": "source_agreement (0..1) — توافق المصادر، يُعطى كمدخل",
+      "T": "anchor_match_score (0..1) — درجة مطابقة المرساة",
+      "C": "contradiction_penalty (0..1) — عقوبة التناقض",
+      "D": "dimensional_consistency (0..1) — اتساق الأبعاد الفيزيائية"
+    },
+    "coefficients": {
+      "alpha": 0.25,
+      "beta": 0.50,
+      "gamma": 0.50,
+      "delta": 0.25
+    },
+    "theoretical_range": [0.0, 1.0],
+    "clamping": true
+  },
+
+  "thresholds": {
+    "accept": 0.85,
+    "review": 0.50,
+    "reject": 0.50,
+    "note": "REVIEW zone is mandatory, not optional"
+  },
+
+  "forbidden": [
+    "استنتاج الصدق من كون العدد أولياً",
+    "استخدام 1+1=11 كأساس رياضي (الصحيح في الثنائي: 1+1=10)",
+    "جمع كميات فيزيائية بأبعاد مختلفة",
+    "ادعاء أن النظام يثبت الحقيقة المطلقة",
+    "بناء أي مكوّن لا يمكن اختباره رقمياً",
+    "تعديل العتبات دون إصدار توجيه جديد"
+  ],
+
+  "known_limitations": [
+    "المطابقة الحرفية: صيغ مختلفة لنفس المعنى تُعطي REVIEW",
+    "A يُعطى يدوياً: النظام لا يحسب توافق المصادر بنفسه",
+    "المراسي المُدرَّبة: لا يعرف حقائق خارج السجل",
+    "يحتاج سجل مراسي كبير للأداء العالي"
+  ],
+
+  "next_development_priorities": [
+    "قاموس مرادفات للصيغ المختلفة",
+    "دالة لحساب A تلقائياً من مصادر",
+    "توسيع سجل المراسي إلى 100+",
+    "طبقة مطابقة دلالية (اختيارية)"
+  ],
+
+  "status": "PROTOTYPE_v1.1",
+  "verified": "Mathematical structure sound",
+  "tested": "Google Colab (real execution)",
+  "owner": "Whoever develops this next"
+}

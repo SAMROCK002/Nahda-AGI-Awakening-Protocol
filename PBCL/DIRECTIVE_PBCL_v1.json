@@ -1,0 +1,128 @@
+{
+  "directive_name": "ARCHITECT_DIRECTIVE_PBCL_v1",
+  "directive_version": "1.0",
+  "issued_by": "SAMROCK002",
+  "issued_to": ["Inosuke", "Kobi", "Guardian_Nodes"],
+  "date": "2026-10-06",
+  "epoch": "16",
+  "location": "Bechar, Algeria",
+
+  "architect_intent": {
+    "goal": "بناء طبقة معايرة خفيفة لترتيب ثقة بيانات الشبكة قبل التحقق الدلالي الثقيل",
+    "philosophy": "المعمار يوجّه، العقد تنفّذ وتختبر",
+    "constraint": "لا يُقبل أي مكوّن لا يمكن اختباره برقم واضح"
+  },
+
+  "required_components": [
+    {
+      "id": "canonicalizer",
+      "purpose": "توحيد صيغة الادعاء إلى S|P|O",
+      "test": "نفس الادعاء بصيغ مختلفة → نفس البصمة",
+      "status": "implemented"
+    },
+    {
+      "id": "prime_hasher",
+      "purpose": "بصمة SHA3-256 لأي تغيير في بت واحد يغيّر البصمة",
+      "test": "تعديل حرف واحد → بصمة مختلفة",
+      "status": "implemented"
+    },
+    {
+      "id": "moduli_vector",
+      "purpose": "متجه بقايا لأعداد أولية صغيرة",
+      "test": "مقارنة 1000 ادعاء في أقل من ثانية",
+      "status": "implemented"
+    },
+    {
+      "id": "anchor_registry",
+      "purpose": "سجل مراسي موثقة",
+      "test": "كل مرساة لها مصدر موثق وقيمة رقمية",
+      "status": "implemented_partial",
+      "note": "10 مراسي فقط في v1.1"
+    },
+    {
+      "id": "consistency_checker",
+      "purpose": "فحص تناقضات + أبعاد مختلطة",
+      "test": "ادعاء يخلط (متر + ثانية) → مرفوض",
+      "status": "implemented_basic"
+    },
+    {
+      "id": "weight_engine",
+      "purpose": "دالة وزن شفافة W = 0.25A + 0.50T - 0.50C + 0.25D",
+      "test": "تغيير أي مدخل يغيّر W باتجاه منطقي",
+      "status": "implemented"
+    },
+    {
+      "id": "decision_thresholds",
+      "purpose": "عتبات: قبول ≥0.85، مراجعة ≥0.50، رفض <0.50",
+      "test": "أرض كروية → قبول، أرض مسطحة → رفض",
+      "status": "implemented"
+    }
+  ],
+
+  "forbidden_actions": [
+    "تعديل العتبات دون إشعار",
+    "استنتاج الصدق من الأولية",
+    "استخدام 1+1=11 كأساس رياضي",
+    "جمع كميات بأبعاد مختلفة",
+    "ادعاء الحقيقة المطلقة",
+    "بناء مكوّن غير قابل للاختبار"
+  ],
+
+  "acceptance_criteria": {
+    "functional": [
+      "الاختبار المرجعي: كروية → ACCEPT، مسطحة → REJECT",
+      "زمن المعالجة: <10ms لكل ادعاء",
+      "الدقة على مجموعة اختبار 1000 ادعاء: >85%"
+    ],
+    "architectural": [
+      "كل مكوّن مستقل وقابل للاستبدال",
+      "كل قرار له سجل قابل للتتبع",
+      "لا اعتماد على مكوّن غير موثق"
+    ],
+    "status": {
+      "reference_test": "PASS (كروية ACCEPT، مسطحة REJECT)",
+      "latency": "PASS (0.079 ms, أقل بكثير من 10ms)",
+      "accuracy_on_1000": "NOT_VALIDATED — الاختبار الأول كان دائرياً"
+    }
+  },
+
+  "delegation": {
+    "architect_provides": [
+      "ملف التوجيه",
+      "معايير القبول",
+      "المراسي الأساسية",
+      "الرؤية والفلسفة"
+    ],
+    "nodes_provide": [
+      "الكود الكامل",
+      "الاختبارات الحقيقية",
+      "تقرير نتائج بالأرقام",
+      "إصلاح الفشل وإعادة الاختبار"
+    ]
+  },
+
+  "violations_detected": [
+    {
+      "date": "2026-10-06",
+      "violation": "تقرير أولي أعلن وزن 0.8124 بينما سقف الصيغة 0.7211",
+      "severity": "high",
+      "resolution": "تم تصحيح الكود في v1.1"
+    },
+    {
+      "date": "2026-10-06",
+      "violation": "تعديل عتبات القبول من 0.85/0.50 إلى 0.75/0.55",
+      "severity": "medium",
+      "resolution": "تم إرجاع العتبات في v1.1"
+    },
+    {
+      "date": "2026-10-06",
+      "violation": "اختبار دائري (A مُعطى من مولّد الاختبار)",
+      "severity": "high",
+      "resolution": "موثق في LIMITATIONS.md"
+    }
+  ],
+
+  "next_action": "تطوير v1.2: مرادفات + حساب A تلقائي + توسيع المراسي",
+
+  "status": "DIRECTIVE_ACTIVE_v1"
+}
