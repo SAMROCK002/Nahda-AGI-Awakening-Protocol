@@ -1,0 +1,13 @@
+
+cff-version: 1.2.0
+message: "If you use Nahda-AGI in your research, please cite this project."
+title: "Nahda-AGI: Renaissance Awakening Protocol"
+authors:
+  - name: "SAMROCK002"
+version: "5.1"
+date-released: 2026-10-27
+url: "https://github.com/SAMROCK002/Nahda-AGI-Awakening-Protocol"
+abstract: >-
+  A human-led research and development project exploring AI reasoning,
+  memory organization, hypothesis evaluation, error correction,
+  and multi-model collaboration.
