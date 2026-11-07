@@ -1,0 +1,483 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SAMROCK002/Nahda-AGI-Awakening-Protocol/blob/main/GENERATIONAL_CONTINUITY/EXPERIENCE_RECORD_SCHEMA_v0.1.json",
+  "title": "Nahda Intergenerational Experience Record",
+  "description": "Schema v0.1 for recording sourced human experiences, historical events, research findings, engineering lessons, simulations, and unresolved questions. This schema describes records; it does not establish that a claim is true.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "record_type",
+    "captured_at",
+    "source",
+    "context",
+    "observations",
+    "interpretations",
+    "evidence",
+    "outcomes",
+    "lessons",
+    "confidence",
+    "privacy",
+    "review",
+    "transfer"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "record_type": {
+      "type": "string",
+      "enum": [
+        "lived_experience",
+        "historical_event",
+        "scientific_finding",
+        "engineering_failure",
+        "successful_practice",
+        "social_pattern",
+        "simulation_result",
+        "open_question"
+      ]
+    },
+    "captured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_kind",
+        "title",
+        "creator",
+        "uri",
+        "content_hash_sha256"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_kind": {
+          "type": "string",
+          "enum": [
+            "first_person_account",
+            "interview",
+            "book",
+            "paper",
+            "dataset",
+            "official_record",
+            "software_log",
+            "experiment",
+            "simulation",
+            "other"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "creator": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "uri": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "content_hash_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "access_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "time_period",
+        "scope",
+        "environment",
+        "constraints"
+      ],
+      "properties": {
+        "time_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "description": "Population, system, place, or situation to which this record applies."
+        },
+        "environment": {
+          "type": "string"
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relevant_population": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "statement",
+          "observation_kind"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observation_kind": {
+            "type": "string",
+            "enum": [
+              "directly_observed",
+              "reported_by_source",
+              "measured",
+              "derived"
+            ]
+          },
+          "observed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "observer_or_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "interpretations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claims",
+        "hypotheses",
+        "alternative_explanations"
+      ],
+      "properties": {
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hypotheses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "alternative_explanations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "normative_or_philosophical_view": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "supporting",
+        "contradicting",
+        "limitations"
+      ],
+      "properties": {
+        "supporting": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "contradicting": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "independent_replication": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observed_outcomes",
+        "known_harms",
+        "known_benefits"
+      ],
+      "properties": {
+        "observed_outcomes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "known_harms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "known_benefits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "affected_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lessons": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_lessons",
+        "transfer_conditions",
+        "non_transferable_conditions",
+        "open_questions"
+      ],
+      "properties": {
+        "candidate_lessons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transfer_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "non_transferable_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "open_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "epistemic_status",
+        "rationale"
+      ],
+      "properties": {
+        "epistemic_status": {
+          "type": "string",
+          "enum": [
+            "unreviewed",
+            "anecdotal",
+            "context_supported",
+            "evidence_supported",
+            "contested",
+            "retracted",
+            "unknown"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "classification",
+        "consent_status",
+        "redaction_status"
+      ],
+      "properties": {
+        "classification": {
+          "type": "string",
+          "enum": [
+            "public",
+            "internal",
+            "restricted",
+            "sensitive"
+          ]
+        },
+        "consent_status": {
+          "type": "string",
+          "enum": [
+            "not_applicable",
+            "explicit_consent",
+            "public_source",
+            "unknown",
+            "withdrawn"
+          ]
+        },
+        "redaction_status": {
+          "type": "string",
+          "enum": [
+            "not_reviewed",
+            "reviewed_no_redaction_needed",
+            "redacted"
+          ]
+        },
+        "retention_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "review_notes"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "raw",
+            "structured",
+            "under_review",
+            "supported_in_scope",
+            "context_specific",
+            "hypothesis",
+            "contested",
+            "retracted",
+            "archived"
+          ]
+        },
+        "reviewer_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "review_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transfer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eligible_for_handoff",
+        "handoff_summary",
+        "required_context",
+        "warnings"
+      ],
+      "properties": {
+        "eligible_for_handoff": {
+          "type": "boolean"
+        },
+        "handoff_summary": {
+          "type": "string"
+        },
+        "target_generation_or_release": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_context": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
