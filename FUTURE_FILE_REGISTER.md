@@ -1,11 +1,11 @@
 # NOZUKO FUTURE FILE REGISTER
 
 **Register ID:** `NOZUKO_FUTURE_FILE_REGISTER_001`  
-**Version:** 0.1  
+**Version:** 0.2  
 **Status:** `PLANNING_REGISTER`  
 **Architect:** SAMROCK002  
 **Prepared by:** Tengiro | ChatGPT (GPT-6)  
-**Date:** 2026-11-12
+**Date:** 2026-11-18
 
 ## Why this register exists
 
@@ -26,6 +26,7 @@ The architect's principle is to **communicate and preserve knowledge, not compel
 
 | Proposed path | Status | Priority | Why it matters | Dependencies / next action |
 |---|---|---:|---|---|
+| `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md` | `IMPLEMENTED_VERIFIED` | CRITICAL | Mandatory protocol for file genesis, provenance, council participation, binary-prime resonance, review, Architect approval, and repository verification. | Creation commit: `6f399eb263e6f615516261fed0c9cc2733ed140a`; verified revision commit: `f1e45ca9b87558d0d0019be3daffe118bc2ae4cd`; paired with `SOVEREIGN_ENGINEERING_PRINCIPLE.md`. |
 | `MODEL_CONTINUITY/NOZUKO_CAPABILITY_AWARE_EVALUATION.md` | `DRAFT_CREATED_NOT_REVIEWED` | HIGH | Evaluate models by actual modalities, tools, context, and physical access; retain failures and verification evidence. | Review `NOZUKO_CAPABILITY_AWARE_EVALUATION_v0.1.md`; decide final repository path. |
 | `MODEL_CONTINUITY/NOZUKO_MULTI_MODEL_DISAGREEMENT_PROTOCOL.md` | `DRAFT_CREATED_NOT_REVIEWED` | HIGH | Preserve disagreements among models with provenance, the architect's clarified intent, evidence, and a reasoned assessment. | Review the corresponding v0.1 document and define a machine-readable schema if useful. |
 | `BEHAVIORAL_UNDERSTANDING/NOZUKO_BEHAVIOR_AND_NEEDS_MODEL.md` | `DRAFT_CREATED_NOT_REVIEWED` | HIGH | Understand observed behavior, candidate motivations, context, welfare, and appropriate response before designing services. | Review the corresponding v0.1 document; seek domain review for animal/human behavior claims. |
