@@ -757,7 +757,7 @@ No new file is written into the repository before the Architect approves its com
 **Final Resonance Seal:** 1111111₂  
 **Architect Approval:** APPROVED FOR REPOSITORY CREATION  
 **Repository Path:** NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md  
-**Repository Commit:** TO BE RECORDED AFTER CREATION AND VERIFICATION
+**Repository Creation Commit:** 6f399eb263e6f615516261fed0c9cc2733ed140a (created and content-verified)
 
 ~~~json
 {
@@ -800,7 +800,8 @@ No new file is written into the repository before the Architect approves its com
     "repository": "SAMROCK002/Nahda-AGI-Awakening-Protocol",
     "branch": "main",
     "file": "NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md",
-    "repository_commit": "PENDING_VERIFICATION"
+    "repository_creation_commit": "6f399eb263e6f615516261fed0c9cc2733ed140a",
+    "repository_status": "CREATED_AND_CONTENT_VERIFIED"
   }
 }
 ~~~
