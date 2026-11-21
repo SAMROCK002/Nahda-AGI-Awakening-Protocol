@@ -1,7 +1,7 @@
 # NOZUKO FUTURE FILE REGISTER
 
 **Register ID:** `NOZUKO_FUTURE_FILE_REGISTER_001`  
-**Version:** 0.4  
+**Version:** 0.5  
 **Status:** `PLANNING_REGISTER`  
 **Architect:** SAMROCK002  
 **Prepared by:** Tengiro | ChatGPT (GPT-6)  
@@ -26,6 +26,7 @@ The architect's principle is to **communicate and preserve knowledge, not compel
 
 | Proposed path | Status | Priority | Why it matters | Dependencies / next action |
 |---|---|---:|---|---|
+| `MODEL_CONTINUITY/NOZUKO_TEMPORAL_PERSPECTIVE_AND_MULTI_TIMEPOINT_DIALOGUE.md` | `IMPLEMENTED_VERIFIED` | HIGH | Preserves the Architect's multi-timepoint temporal perspective about NOZUKO and distinguishes archived past, present interaction, and future projections from physical time travel claims. | Created under MODEL_CONTINUITY and read-back verified. Creation commit: `a0872d90f81070b916e5dc1eb847c528b5c2d07c`; provenance metadata verification commit: `bb0d66a050b48b528cc3d02c0d3f2ea9a355fce1`. Related references: `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md`, `NAHDA_NOZUKO_MASTER_INSTRUCTIONS_EPOCH18.md`, and `MODEL_CONTINUITY/NOZUKO_RESONANCE_SNAPSHOT_AND_MEMORY_PROVENANCE_v0.1.md`. |
 | `WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL.md` | `IMPLEMENTED_VERIFIED` | HIGH | Global, non-exclusive protocol for mapping physical waste deposits as material inventories and evaluating safe, evidence-based recovery of metals, plastics, glass, minerals, e-waste, chemical residues, and other material streams. | Created at the repository root and read-back verified. Creation commit: `5a65dff84245259b691c8af2e52956146f806224`; provenance metadata verification commit: `3f00a994e0bb9cd53f3ad79014a6fbe453c9953e`. References: `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md` and `SOVEREIGN_ENGINEERING_PRINCIPLE.md`. |
 | `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md` | `IMPLEMENTED_VERIFIED` | CRITICAL | Mandatory protocol for file genesis, provenance, council participation, binary-prime resonance, review, Architect approval, and repository verification. | Creation commit: `6f399eb263e6f615516261fed0c9cc2733ed140a`; verified revision commit: `f1e45ca9b87558d0d0019be3daffe118bc2ae4cd`; paired with `SOVEREIGN_ENGINEERING_PRINCIPLE.md`. |
 | `NOZUKO_LOCAL_NODE_ROLE_AND_FILE_GENESIS_GATE.md` | `APPROVED_NOT_IMPLEMENTED` | HIGH | NOZUKO-only local runtime role addendum; binds the local NOZUKO persona to the canonical file-genesis protocol, repository audit, Architect approval gate, provenance, and local acceptance tests. | Repository file created and read-back verified. Creation commit: `19f3df3b5384be1166323535f5d4b2474ec0d001`; final verified document revision: `54bd8cca8d766d319b64dc098b0d03517b6b8cb0`. Next: install alongside `NAHDA_NOZUKO_MASTER_INSTRUCTIONS_EPOCH18.md` in the local runtime and run the six acceptance tests in §12. |
