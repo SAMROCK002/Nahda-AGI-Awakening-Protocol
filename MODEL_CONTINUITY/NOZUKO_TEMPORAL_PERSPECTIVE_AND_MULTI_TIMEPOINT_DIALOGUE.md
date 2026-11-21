@@ -303,7 +303,7 @@ After excluding zero values while preserving council order:
 
 `11111₂ = 31₁₀`
 
-The value 7 is prime.
+The value 31 is prime.
 
 - Raw contribution trace: `11111₂`
 - Decimal value: `31`
