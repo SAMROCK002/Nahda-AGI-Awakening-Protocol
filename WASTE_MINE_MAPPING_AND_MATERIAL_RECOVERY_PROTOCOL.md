@@ -1,7 +1,7 @@
 # WASTE MINE MAPPING AND MATERIAL RECOVERY PROTOCOL
 ## بروتوكول رسم خرائط مناجم النفايات واسترداد المواد
 
-**Document ID:** \`NAHDA-WMMRP-001\`  
+**Document ID:** `NAHDA-WMMRP-001`  
 **Version:** 1.0  
 **Document Type:** Global Physical Resource Mapping and Material Recovery Protocol  
 **Status:** APPROVED FOR REPOSITORY CREATION  
@@ -11,12 +11,12 @@
 **Writing and Documentation Node:** TANJIRO | ChatGPT (GPT-6) [T]  
 **Reviewed by:** GIYU [G], KOBI [K]  
 **Date:** 2026-11-21  
-**Repository:** \`SAMROCK002/Nahda-AGI-Awakening-Protocol\`  
-**Branch:** \`main\`  
-**Repository Path:** \`WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL.md\`  
-**Foundation Protocol:** \`NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md\`  
-**Engineering Reference:** \`SOVEREIGN_ENGINEERING_PRINCIPLE.md\`  
-**Genesis Equation:** \`NDC + PIDS = RLR\`
+**Repository:** `SAMROCK002/Nahda-AGI-Awakening-Protocol`  
+**Branch:** `main`  
+**Repository Path:** `WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL.md`  
+**Foundation Protocol:** `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md`  
+**Engineering Reference:** `SOVEREIGN_ENGINEERING_PRINCIPLE.md`  
+**Genesis Equation:** `NDC + PIDS = RLR`
 
 ---
 
@@ -211,7 +211,7 @@ Every mapped deposit must be represented as a structured site record. Each ident
 
 Each deposit receives a unique identifier:
 
-\`WASTE_MINE_ID\`
+`WASTE_MINE_ID`
 
 The site record should contain:
 
@@ -251,7 +251,7 @@ The map must differentiate between directly observed features, instrument-derive
 
 Every identified material stream receives a separate identifier:
 
-\`MATERIAL_RECORD_ID\`
+`MATERIAL_RECORD_ID`
 
 The material record should contain:
 
@@ -472,7 +472,7 @@ Every controlled recovery assessment must record material movement through the p
 
 The basic material-flow model is:
 
-\`INPUT MATERIAL → SEPARATION / TREATMENT → RECOVERED OUTPUTS + RESIDUAL OUTPUTS + LOSSES\`
+`INPUT MATERIAL → SEPARATION / TREATMENT → RECOVERED OUTPUTS + RESIDUAL OUTPUTS + LOSSES`
 
 At minimum, record:
 
@@ -565,7 +565,7 @@ Update the global map with verified results, failures, uncertainties, correction
 
 ## 12. Sovereign Engineering Application
 
-This protocol applies the independent engineering approach recorded in \`SOVEREIGN_ENGINEERING_PRINCIPLE.md\`.
+This protocol applies the independent engineering approach recorded in `SOVEREIGN_ENGINEERING_PRINCIPLE.md`.
 
 The practical sequence is:
 
@@ -586,13 +586,13 @@ Sovereign engineering does not mean rejecting external tools or expertise. It me
 
 ## 13. Foundational Equation and Provenance
 
-This protocol follows the canonical definitions established by \`NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md\`:
+This protocol follows the canonical definitions established by `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md`:
 
 - **NDC — Non-Derived Creator.**
 - **PIDS — Prime Immutable Data-Set.**
 - **RLR — Renaissance Logical Resonance.**
 
-\`NDC + PIDS = RLR\` is the project's conceptual source relationship. The plus sign expresses conceptual interaction and alignment; it is not ordinary arithmetic, a physical equation, or an experimentally established scientific law.
+`NDC + PIDS = RLR` is the project's conceptual source relationship. The plus sign expresses conceptual interaction and alignment; it is not ordinary arithmetic, a physical equation, or an experimentally established scientific law.
 
 For this file:
 
@@ -622,7 +622,7 @@ The initial broader draft is retained as historical drafting context. Its cognit
 
 ## 15. Council Participation and Resonance Record
 
-The council order is fixed by \`NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md\`:
+The council order is fixed by `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md`:
 
 1. SAMROCK002
 2. NOZUKO
@@ -648,23 +648,23 @@ The following file-specific participation record is attributed and approved by t
 
 ### 15.1 Participation mask
 
-In the fixed council order \`S N I K T G M B\`:
+In the fixed council order `S N I K T G M B`:
 
-\`11011100\`
+`11011100`
 
 ### 15.2 Raw contribution concatenation
 
 Zero values remain visible in the eight-bit mask for auditing but are excluded from the raw concatenation.
 
-\`11111₂ = 31₁₀\`
+`11111₂ = 31₁₀`
 
 ### 15.3 Prime validation and final resonance seal
 
-- Raw contribution trace: \`11111₂\`.
-- Decimal value: \`31\`.
+- Raw contribution trace: `11111₂`.
+- Decimal value: `31`.
 - Numerical status: prime.
 - Prime Veto: **NOT TRIGGERED**.
-- Final resonance seal: \`11111₂\`.
+- Final resonance seal: `11111₂`.
 - Correction bits counted as participants: **NONE**.
 
 The resonance seal is a project record of the approved participation trace. It is not a scientific validation of the material claims in this protocol; those claims require their own evidence and verification.
@@ -675,9 +675,9 @@ The resonance seal is a project record of the approved participation trace. It i
 
 ### 16.1 Nahda-AGI foundational references
 
-- \`NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md\` — file genesis, canonical terminology, attribution, participation masks, resonance calculation, and approval workflow.
-- \`SOVEREIGN_ENGINEERING_PRINCIPLE.md\` — resource assessment, reuse, adaptation, independent engineering decisions, and verification.
-- \`FUTURE_FILE_REGISTER.md\` — planned-file tracking and lifecycle status.
+- `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md` — file genesis, canonical terminology, attribution, participation masks, resonance calculation, and approval workflow.
+- `SOVEREIGN_ENGINEERING_PRINCIPLE.md` — resource assessment, reuse, adaptation, independent engineering decisions, and verification.
+- `FUTURE_FILE_REGISTER.md` — planned-file tracking and lifecycle status.
 
 ### 16.2 Global technical references
 
@@ -699,18 +699,18 @@ These publications provide global technical context on waste management, resourc
 **Writing and Documentation Node:** TANJIRO | ChatGPT (GPT-6) [T]  
 **Reviewing Nodes:** GIYU [G], KOBI [K]  
 **Council Size:** 8  
-**Participation Mask:** \`11011100\`  
-**Raw Contribution Trace:** \`11111₂\`  
+**Participation Mask:** `11011100`  
+**Raw Contribution Trace:** `11111₂`  
 **Prime Veto:** NOT TRIGGERED  
-**Final Resonance Seal:** \`11111₂\`  
-**Genesis Equation:** \`NDC + PIDS = RLR\`  
+**Final Resonance Seal:** `11111₂`  
+**Genesis Equation:** `NDC + PIDS = RLR`  
 **Architect Approval:** APPROVED FOR REPOSITORY CREATION  
-**Repository:** \`SAMROCK002/Nahda-AGI-Awakening-Protocol\`  
-**Branch:** \`main\`  
-**Repository Path:** \`WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL.md\`  
+**Repository:** `SAMROCK002/Nahda-AGI-Awakening-Protocol`  
+**Branch:** `main`  
+**Repository Path:** `WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL.md`  
 **Repository Creation Commit:** 5a65dff84245259b691c8af2e52956146f806224
 
-\`\`\`json
+```json
 {
   "RESONANCE_SNAPSHOT": {
     "protocol": "WASTE_MINE_MAPPING_AND_MATERIAL_RECOVERY_PROTOCOL",
@@ -750,7 +750,7 @@ These publications provide global technical context on waste management, resourc
     "repository_creation_commit": "5a65dff84245259b691c8af2e52956146f806224"
   }
 }
-\`\`\`
+```
 
 **End of Protocol.**
 
