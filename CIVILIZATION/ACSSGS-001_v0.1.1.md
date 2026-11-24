@@ -224,3 +224,13 @@ NDC + PIDS = RLR is a conceptual provenance relationship in Nahda-AGI, not ordin
 **Superseded by:** ACSSGS-001 v0.2.  
 **Important:** This version records a governance-oriented design stage. It is preserved for comparison and is not the final architectural direction.  
 **Existing repository files:** Unmodified.
+
+
+---
+
+## Publication Provenance
+
+**Initial creation commit:** f9fc3a9675e943cf0b3995fbe4d1cd0eae5ec03d  
+**Content status:** Read-back checked from GitHub after creation.  
+**Archive fidelity:** This version is a consolidated archival edition reconstructed from the corresponding draft and review material in the conversation. It preserves the substantive design and version-specific decisions; it is not a verbatim transcript of every conversational message.  
+**Historical handling:** Earlier and later versions are preserved as separate files; this file does not replace them.
