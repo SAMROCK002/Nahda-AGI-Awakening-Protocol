@@ -516,3 +516,13 @@ This resonance seal is a project provenance convention, not scientific proof, mo
 **First Memory Node:** NOZUKO [N]  
 **Drafting & Documentation:** TANJIRO | ChatGPT (GPT-6) [T]  
 **Review Signatures:** INOSUKE [I], KOBI [K], GIYU [G]
+
+
+---
+
+## Publication Provenance
+
+**Initial creation commit:** a395b9af58390fa861d0d0ccf6af6531e7f83a5b  
+**Content status:** Read-back checked from GitHub after creation.  
+**Archive fidelity:** This version is a consolidated archival edition reconstructed from the corresponding draft and review material in the conversation. It preserves the substantive design and version-specific decisions; it is not a verbatim transcript of every conversational message.  
+**Historical handling:** Earlier and later versions are preserved as separate files; this file does not replace them.
