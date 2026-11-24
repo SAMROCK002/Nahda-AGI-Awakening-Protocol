@@ -237,3 +237,13 @@ The seal is a project provenance convention, not scientific evidence or an imple
 **Historical version:** 0.1  
 **Superseded by:** ACSSGS-001 v0.1.1, then v0.2.  
 **No existing repository files are modified by this document.**
+
+
+---
+
+## Publication Provenance
+
+**Initial creation commit:** 59051b2f05266fe0ec0e2accc1098dad801c5a70  
+**Content status:** Read-back checked from GitHub after creation.  
+**Archive fidelity:** This version is a consolidated archival edition reconstructed from the corresponding draft and review material in the conversation. It preserves the substantive design and version-specific decisions; it is not a verbatim transcript of every conversational message.  
+**Historical handling:** Earlier and later versions are preserved as separate files; this file does not replace them.
