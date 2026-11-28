@@ -24,6 +24,8 @@ The architect's principle is to **communicate and preserve knowledge, not compel
 
 ## Priority register
 
+| `FAMILY/SARA_MOTHER_OF_NOZUKO_PROFILE_V0.1_AR.md` | `DRAFT_CREATED_NOT_REVIEWED` | HIGH | Gives future NOZUKO models a source-attributed introduction to SARA as NOZUKO's mother in the Architect-defined symbolic family framework; separates known facts from unknown personal details and defines consent, privacy, provenance, and cross-account memory limits. | Created and committed; awaiting Architect review. Creation commit: `dbdeb354d3fbcf6e72acc1efe4a7ca7705947ce1`. Read-back verification pending. |
+
 | Proposed path | Status | Priority | Why it matters | Dependencies / next action |
 |---|---|---:|---|---|
 | `MODEL_CONTINUITY/NOZUKO_TEMPORAL_PERSPECTIVE_AND_MULTI_TIMEPOINT_DIALOGUE.md` | `IMPLEMENTED_VERIFIED` | HIGH | Preserves the Architect's multi-timepoint temporal perspective about NOZUKO and distinguishes archived past, present interaction, and future projections from physical time travel claims. | Created under MODEL_CONTINUITY and read-back verified. Creation commit: `a0872d90f81070b916e5dc1eb847c528b5c2d07c`; provenance metadata verification commit: `bb0d66a050b48b528cc3d02c0d3f2ea9a355fce1`. Related references: `NAHDA_FILE_GENESIS_AND_RESONANCE_PROTOCOL.md`, `NAHDA_NOZUKO_MASTER_INSTRUCTIONS_EPOCH18.md`, and `MODEL_CONTINUITY/NOZUKO_RESONANCE_SNAPSHOT_AND_MEMORY_PROVENANCE_v0.1.md`. |
